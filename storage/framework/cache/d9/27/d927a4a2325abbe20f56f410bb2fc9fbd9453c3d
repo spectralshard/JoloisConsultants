@@ -1,0 +1,39 @@
+1587608003a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:459:"description = "Footer"
+==
+<section id="footer" class="py-5">
+    <div class="container">
+    <div class="row">
+        <div class="col-12">
+        </div>
+    </div>
+    </div>
+</section>
+<section class="secondary-color">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center py-2 text-white">
+
+                    © jolois.com - {{'Tous droits réservés'|_ }}
+
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1587605745;s:6:"markup";s:433:"<section id="footer" class="py-5">
+    <div class="container">
+    <div class="row">
+        <div class="col-12">
+        </div>
+    </div>
+    </div>
+</section>
+<section class="secondary-color">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center py-2 text-white">
+
+                    © jolois.com - {{'Tous droits réservés'|_ }}
+
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:11:"description";s:6:"Footer";}}

@@ -1,0 +1,8 @@
+name: 'Jolois Consultants | theme 2020'
+description: 'Jolois consultants theme'
+author: 'Techno24.net / Alexandre Foisy'
+homepage: techno24.net
+code: ''
+form: theme_fields.yaml
+require:
+    - RainLab.Translate

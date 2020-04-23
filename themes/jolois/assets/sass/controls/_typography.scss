@@ -1,0 +1,214 @@
+//
+// Typography
+// --------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight:400;
+}
+
+// Headings
+// -------------------------
+h1 {
+  line-height: 1em;
+  font: 3.125em 'Big Shoulders Display', sans-serif;
+  font-weight:700;
+  margin: 0.25em 0;
+}
+h2 {
+
+  line-height: 1em;
+  font: 2.5em 'Big Shoulders Display', sans-serif;
+  font-weight:700;
+  margin: 0.25em 0 0.5em 0;
+}
+
+h3 {
+
+  line-height: 1em;
+  font: 1.875em 'Big Shoulders Display', sans-serif;
+  font-weight:500;
+  margin: 1.5em 0 0.5em 0;
+}
+h4 {
+
+  line-height: 1em;
+  font: 1.5em 'Big Shoulders Display', sans-serif;
+  font-weight:500;
+  margin-bottom: 0.5em;
+}
+
+h5 {
+  line-height: 1em;
+  font: 1.25em 'Big Shoulders Display', sans-serif;
+  font-weight:500;
+  margin-bottom: 0.5em;
+}
+h6 {
+  line-height: 1em;
+  font: 1.125em 'Big Shoulders Display', sans-serif;
+  font-weight:500;
+  margin-bottom: 0.5em;
+}
+
+// Body text
+// -------------------------
+p {
+  font: 400 15px/15px 'Big Shoulders Display', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin-bottom: 1.125em;
+}
+
+// Emphasis & misc
+// -------------------------
+small,
+.small {
+  font-size: 83%;     // ~15px
+  line-height: 2.067; // ~31px
+  font-weight:400;
+}
+strong {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight:700;
+}
+.heavy {
+  font-weight:700;
+}
+// Lists
+// --------------------------------------------------
+ul {
+  list-style: circle;
+  padding-left: 30px;
+  padding-bottom: 16px;
+}
+ol {
+  padding-left: 30px;
+  padding-bottom: 16px;
+}
+li {
+  font-size: 1.2em;
+}
+// MISC
+// ----
+
+/* Responsive Headings */
+
+/* Extra Small Devices, Phones */
+@include media-breakpoint-down(xs) {
+  .h1-responsive {
+    font-size: 1.5rem;
+  }
+  .h2-responsive {
+    font-size: 1.375rem;
+  }
+  .h3-responsive {
+    font-size: 1.188rem;
+  }
+  .h4-responsive {
+    font-size: 1.125rem;
+  }
+  .h5-responsive {
+    font-size: 1.063rem;
+  }
+  .text-xs-custom {
+    font-size: 0.75rem;
+    line-height: 14px;
+  }
+  .display-1 {
+    font-size: 2.5rem;
+  }
+  .display-2 {
+    font-size: 2.25rem;
+  }
+  .display-3 {
+    font-size: 2rem;
+  }
+  .display-4 {
+    font-size: 1.75rem;
+  }
+}
+
+
+@include media-breakpoint-up(xs) {
+  .h1-responsive {
+    font-size: 1.875rem;
+  }
+  .h2-responsive {
+    font-size: 1.625rem;
+  }
+  .h3-responsive {
+    font-size: 1.375rem;
+  }
+  .h4-responsive {
+    font-size: 1.25rem;
+  }
+  .h5-responsive {
+    font-size: 1.125rem;
+  }
+  .text-sm-custom {
+    font-size: 0.938rem;
+    line-height: 15px;
+  }
+}
+
+/* Small Devices, Tablets */
+
+@include media-breakpoint-up(md) {
+  .h1-responsive {
+    font-size: 2rem;
+  }
+  .h2-responsive {
+    font-size: 1.75rem;
+  }
+  .h3-responsive {
+    font-size: 1.5rem;
+  }
+  .h4-responsive {
+    font-size: 1.25rem;
+  }
+  .h5-responsive {
+    font-size: 1.125rem;
+  }
+}
+
+/* Medium Devices, Desktops */
+
+@include media-breakpoint-up(lg) {
+  .h1-responsive {
+    font-size: 2.25rem;
+  }
+  .h2-responsive {
+    font-size: 2rem;
+  }
+  .h3-responsive {
+    font-size: 1.75rem;
+  }
+  .h4-responsive {
+    font-size: 1.5rem;
+  }
+  .h5-responsive {
+    font-size: 1.25rem;
+  }
+}
+
+/* Extra Large Devices, Wide Screens */
+
+@include media-breakpoint-up(xl) {
+  .h1-responsive {
+    font-size: 2.5rem;
+  }
+  .h2-responsive {
+    font-size: 2.25rem;
+  }
+  .h3-responsive {
+    font-size: 2rem;
+  }
+  .h4-responsive {
+    font-size: 1.75rem;
+  }
+  .h5-responsive {
+    font-size: 1.5rem;
+  }
+}
