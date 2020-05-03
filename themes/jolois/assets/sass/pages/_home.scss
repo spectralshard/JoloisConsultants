@@ -6,77 +6,16 @@
   background-size: 100% 100%;
 }
 
-.secondary-shadow {
-  box-shadow: 20px -20px $primary-color
-}
-
 p img {
   max-width: 100%;
   height: auto;
 }
 
-@include media-breakpoint-down(xs) {
-  .home-cover {
-    .cover-image {
-      height: 200px;
-      .form-search-content {
-        margin-top: 80px;
-      }
-    }
-  }
 
-}
-
-@include media-breakpoint-up(md) {
-
-  .home-cover {
-    .cover-image {
-      height: 300px;
-      .form-search-content {
-        margin-top: 100px;
-      }
-    }
-  }
-
-}
-
-@include media-breakpoint-up(lg) {
-
-  .home-cover {
-    .cover-image {
-      height: 400px;
-      .form-search-content {
-        margin-top: 120px;
-      }
-    }
-  }
-
-}
-
-@include media-breakpoint-up(xl) {
-
-  .home-cover {
-    .cover-image {
-      height: 600px;
-      .form-search-content {
-        margin-top: 200px;
-      }
-    }
-  }
-
-}
-.nav-link {
-  font-size: 1.3rem!important;
-}
 .testim .cont > div {
   padding: 0 0 0 0!important;
 }
 
-HTML  CSS  JS Result
-EDIT ON
-html {
-  background-color: #f3f3f3;
-}
 .wrapper {
   max-width: 680px;
   margin: 60px auto;

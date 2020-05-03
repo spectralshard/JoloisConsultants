@@ -36,15 +36,6 @@
   }
 }
 
-.btn-secondary {
-  background-color:$secondary-color!important;
-  border-color: $secondary-color;
-}
-.btn-secondary:hover {
-  background-color:#ff6d00!important;
-  border-color: #ff6d00;
-}
-
 .page-link {
   position: relative;
   display: block;
@@ -71,20 +62,15 @@ a .page-link{
   border: 1px solid $primary-color;
 }
 
-.social{
-  padding-inline-start: 0px;
-}
-
-.social li{
-  display:inline;
-}
-
-
-.fb-share-button{
-  position:relative;
-  top:-6px;
-}
-
 .text-uppercase{
   text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+.btn-primary:hover {
+  background-color: $primary-color-dark;
+  border-color: $primary-color-dark;
 }

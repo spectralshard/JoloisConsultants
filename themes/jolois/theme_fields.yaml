@@ -1,41 +1,69 @@
 # ===================================
 #  Field Definitions
 # ===================================
-
-fields:
+tabs:
+  fields:
     site_name:
         label: Site name
         comment: The website name as it should appear on the front-end
         default: Jolois
         span: auto
+        tab: General
 
     site_motto:
         label: Site motto
         comment: A short statement about the website.
         default: Consultants en informatique
         span: auto
+        tab: General
+
+    default_email:
+        label: Default Email
+        comment: Set current info email
+        default:
+        span: auto
+        tab: General
+
+    support_email:
+        label: Support Email
+        comment: Set current email support
+        default:
+        span: auto
+        tab: General
+
+    default_phone:
+         label: Default Phone
+         comment: Set current phone
+         default:
+         span: auto
+         tab: General
 
     facebook_url:
         label: Facebook URL
         span: auto
         default:
+        tab: Social
 
     twitter_url:
         label: Twitter URL
         span: auto
         default:
+        tab: Social
 
     linkedin_url:
         label: LinkedIn URL
         span: auto
         default:
+        tab: Social
 
     instagram_url:
         label: Instagram URL
         span: auto
         default:
+        tab: Social
 
     pinterest_url:
         label: Pinterest URL
         span: auto
         default:
+        tab: Social

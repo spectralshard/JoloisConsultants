@@ -4,7 +4,7 @@ description = "Navigation bar"
 <nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
 	<a class="navbar-brand" href="{{ 'home'|page }}">
-		<img src="{{'assets/images/techno24-logo.png'|theme}}" style="width:150px;" alt="{{ 'Logo de Techno24.net'|_ }}">
+		<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
 	</a>
 	<button class="navbar-toggler btn-secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,67 +13,32 @@ description = "Navigation bar"
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav ml-auto pb-0">
 			<li class="nav-item">
-				<a class="nav-link nav-link" href="{{ 'home'|page }}">
-					<strong>{{'ACCUEIL'|_}}</strong></a>
+				<a class="nav-link" href="{{ 'home'|page }}">
+					{{'Acceuil'|_}}
+				</a>
 			</li>
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" role="button"
 				   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<strong>{{'PRODUITS'|_}}</strong>
+					{{'L\'entreprise'|_}}
 				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="{{ 'office365'|page }}#office">Office365</a>
-					<a class="dropdown-item" href="{{ 'bitdefender'|page }}">BitDefender</a>
-					<a class="dropdown-item" href="{{ 'office365'|page }}#msazure">Microsoft Azure</a>
-					<a class="dropdown-item" href="{{ 'office365'|page }}#entreprise">{{'Logiciel d\'entreprise'|_}}</a>
-				</div>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" role="button"
-				   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<strong>{{'HÉBERGEMENT'|_}}</strong>
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="{{ 'hosting'|page }}">{{'Hébergement Web'|_}}</a>
-					<a class="dropdown-item" href="{{ 'hosting'|page }}#solutions">{{'Autres solutions'|_}}</a>
-					<a class="dropdown-item" href="{{ 'hosting'|page }}#technologie">{{'Technologies disponible'|_}}</a>
+				<div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="{{ 'entreprise'|page }}#">Jean-Marie</a>
+					<a class="dropdown-item" href="{{ 'entreprise'|page }}#">Elias</a>
+					<a class="dropdown-item" href="{{ 'entreprise'|page }}#">Alexis</a>
+					<a class="dropdown-item" href="{{ 'equipe'|page }}#">{{'L\'équipe'|_}}</a>
 				</div>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="{{ 'blog/blogList'|page }}">
-					<strong>{{'NOUVELLES'|_}}</strong></a>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" role="button"
-				   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<strong>{{'COURRIEL WEB'|_}}</strong>
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="https://www.office.com/login?es=Click&ru=%2F&msafed=0" target="_blank">Office365</a>
-					<a class="dropdown-item" href="https://mail.hostedemail.com" target="_blank">Host Email</a>
-					<a class="dropdown-item" href="https://techno24.net/webmail" target="_blank">Webmail</a>
-				</div>
+				<a class="nav-link" href="{{ 'services'|page }}">
+					{{'Services'|_}}</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="{{ 'contact'|page }}">
-					<strong>{{'Nous joindre'|_}}</strong></a>
+					{{'Contact'|_}}</a>
 			</li>
-			<li class="nav-item">
-				{% if lang == 'fr' %}
-				<a href="#"
-				   class="nav-link"
-				   data-request="onSwitchLocale"
-				   data-request-data="locale: 'en'" title="English">
-					<strong>EN</strong>
-				</a>
-				{% else %}
-				<a href="#"
-				   class="nav-link"
-				   data-request="onSwitchLocale"
-				   data-request-data="locale: 'fr'" title="Français">
-					<strong>FR</strong>
-				</a>
-				{% endif %}
+			<li class="nav-item pl-3 d-none d-sm-block">
+				<a class="btn btn-primary" href="mailto:{{ this.theme.support_email }}" target="_blank">{{'Demande de support'|_}}</a>
 			</li>
 	</ul>
 	</div>
