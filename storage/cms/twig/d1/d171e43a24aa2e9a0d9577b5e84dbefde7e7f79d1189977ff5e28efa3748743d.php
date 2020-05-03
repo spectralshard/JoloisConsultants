@@ -59,21 +59,13 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
     </div>
 </section>
 <section id=\"pourquoi\">
-    <div class=\"container\">
-        <div class=\"row my-0 my-sm-4 my-lg-5\">
-            <div class=\"col-12\">
-            </div>
-        </div>
-    </div>
-</section>
-<section id=\"partenaires\" class=\"py-5 partner-box\">
-    <div class=\"container\">
-    ";
-        // line 35
-        $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("partners"        , $context['__cms_component_params']        );
-        unset($context['__cms_component_params']);
-        // line 36
+    <div class=\"container py-5\">
+        ";
+        // line 27
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("reusable/pourquoi"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 28
         echo "    </div>
 </section>";
     }
@@ -90,7 +82,7 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
 
     public function getDebugInfo()
     {
-        return array (  77 => 36,  73 => 35,  37 => 1,);
+        return array (  69 => 28,  65 => 27,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -120,16 +112,8 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
     </div>
 </section>
 <section id=\"pourquoi\">
-    <div class=\"container\">
-        <div class=\"row my-0 my-sm-4 my-lg-5\">
-            <div class=\"col-12\">
-            </div>
-        </div>
-    </div>
-</section>
-<section id=\"partenaires\" class=\"py-5 partner-box\">
-    <div class=\"container\">
-    {% component 'partners' %}
+    <div class=\"container py-5\">
+        {% partial 'reusable/pourquoi' %}
     </div>
 </section>", "/Users/alexandrefoisy/web sites/jolois/themes/jolois/pages/home.htm", "");
     }

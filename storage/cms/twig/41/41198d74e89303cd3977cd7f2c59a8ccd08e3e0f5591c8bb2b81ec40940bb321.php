@@ -159,19 +159,29 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 48
         echo "</main>
+<section id=\"partenaires\" class=\"py-5 partner-box\">
+    <div class=\"container\">
+        ";
+        // line 51
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("partners"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 52
+        echo "    </div>
+</section>
 <footer class=\"footer\">
     ";
-        // line 50
+        // line 55
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 51
+        // line 56
         echo "</footer>
 ";
-        $_type = isset($context["type"]) ? $context["type"] : null;        $_message = isset($context["message"]) ? $context["message"] : null;        // line 52
+        $_type = isset($context["type"]) ? $context["type"] : null;        $_message = isset($context["message"]) ? $context["message"] : null;        // line 57
         foreach (Flash::getMessages() as $type => $messages) {
             foreach ($messages as $message) {
-                $context["type"] = $type;                $context["message"] = $message;                // line 53
+                $context["type"] = $type;                $context["message"] = $message;                // line 58
                 echo "<span id=\"flash\" data-type=\"";
                 echo twig_escape_filter($this->env, ($context["type"] ?? null), "html", null, true);
                 echo "\" data-message=\"";
@@ -180,13 +190,13 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
 ";
             }
         }
-        $context["type"] = $_type;        $context["message"] = $_message;        // line 55
+        $context["type"] = $_type;        $context["message"] = $_message;        // line 60
         echo "<script src=\"";
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/vendor/jquery/jquery-3.4.1.min.js", 1 => "assets/vendor/bootstrap/js/bootstrap.min.js", 2 => "assets/vendor/aos/js/aos.js", 3 => "assets/js/main.js"]);
-        // line 60
+        // line 65
         echo "\"></script>
 ";
-        // line 61
+        // line 66
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -197,10 +207,10 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 62
+        // line 67
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 63
+        // line 68
         echo "</body>
 </html>";
     }
@@ -217,7 +227,7 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
 
     public function getDebugInfo()
     {
-        return array (  204 => 63,  201 => 62,  190 => 61,  187 => 60,  184 => 55,  175 => 53,  172 => 52,  169 => 51,  165 => 50,  161 => 48,  159 => 47,  155 => 45,  150 => 44,  146 => 43,  141 => 40,  138 => 39,  135 => 38,  133 => 36,  129 => 35,  125 => 34,  121 => 33,  115 => 30,  111 => 29,  105 => 26,  100 => 23,  95 => 21,  91 => 20,  86 => 19,  81 => 17,  77 => 16,  72 => 15,  70 => 14,  66 => 13,  62 => 12,  58 => 11,  52 => 8,  48 => 7,  44 => 6,  37 => 1,);
+        return array (  214 => 68,  211 => 67,  200 => 66,  197 => 65,  194 => 60,  185 => 58,  182 => 57,  179 => 56,  175 => 55,  170 => 52,  166 => 51,  161 => 48,  159 => 47,  155 => 45,  150 => 44,  146 => 43,  141 => 40,  138 => 39,  135 => 38,  133 => 36,  129 => 35,  125 => 34,  121 => 33,  115 => 30,  111 => 29,  105 => 26,  100 => 23,  95 => 21,  91 => 20,  86 => 19,  81 => 17,  77 => 16,  72 => 15,  70 => 14,  66 => 13,  62 => 12,  58 => 11,  52 => 8,  48 => 7,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -270,6 +280,11 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
 <main id=\"page\">
     {% page %}
 </main>
+<section id=\"partenaires\" class=\"py-5 partner-box\">
+    <div class=\"container\">
+        {% component 'partners' %}
+    </div>
+</section>
 <footer class=\"footer\">
     {% partial 'footer' %}
 </footer>

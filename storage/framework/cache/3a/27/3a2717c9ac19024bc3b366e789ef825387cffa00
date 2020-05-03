@@ -1,8 +1,12 @@
-1588524742a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2995:"description = "Default Layout"
+1588526065a:1:{s:11:"default.htm";a:8:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3208:"description = "Default Layout"
 
 [localePicker]
 forceUrl = 0
 
+[partner partners]
+backgroundColor = "#ffffff"
+includeCSS = 1
+includeJS = 1
 ==
 <?php
 use RainLab\Translate\Classes\Translator;
@@ -63,6 +67,11 @@ $this['site_url'] = asset('');
 <main id="page">
     {% page %}
 </main>
+<section id="partenaires" class="py-5 partner-box">
+    <div class="container">
+        {% component 'partners' %}
+    </div>
+</section>
 <footer class="footer">
     {% partial 'footer' %}
 </footer>
@@ -78,7 +87,7 @@ $this['site_url'] = asset('');
 {% framework extras %}
 {% scripts %}
 </body>
-</html>";s:5:"mtime";i:1588523401;s:6:"markup";s:2702:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1588525463;s:6:"markup";s:2839:"<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -126,6 +135,11 @@ $this['site_url'] = asset('');
 <main id="page">
     {% page %}
 </main>
+<section id="partenaires" class="py-5 partner-box">
+    <div class="container">
+        {% component 'partners' %}
+    </div>
+</section>
 <footer class="footer">
     {% partial 'footer' %}
 </footer>
@@ -148,4 +162,4 @@ function onInit()
     $lang = $translator->getLocale();
 $this['lang'] = $translator->getLocale();
 $this['site_url'] = asset('');
-}";s:11:"description";s:14:"Default Layout";s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}
+}";s:11:"description";s:14:"Default Layout";s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}s:16:"partner partners";a:3:{s:15:"backgroundColor";s:7:"#ffffff";s:10:"includeCSS";s:1:"1";s:9:"includeJS";s:1:"1";}}}

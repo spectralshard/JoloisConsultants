@@ -8,10 +8,6 @@ localeUrl[en] = "/"
 localeMeta_title[en] = ""
 localeMeta_description[en] = ""
 
-[partner partners]
-backgroundColor = "#ffffff"
-includeCSS = 1
-includeJS = 1
 ==
 <div class="jumbotron">
     <div class="container">
@@ -38,15 +34,7 @@ includeJS = 1
     </div>
 </section>
 <section id="pourquoi">
-    <div class="container">
-        <div class="row my-0 my-sm-4 my-lg-5">
-            <div class="col-12">
-            </div>
-        </div>
-    </div>
-</section>
-<section id="partenaires" class="py-5 partner-box">
-    <div class="container">
-    {% component 'partners' %}
+    <div class="container py-5">
+        {% partial 'reusable/pourquoi' %}
     </div>
 </section>
