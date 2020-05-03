@@ -1,20 +1,70 @@
 description = "Footer"
 ==
-<section id="footer" class="py-5">
-    <div class="container">
+<section id="footer" class="py-5 secondary-color">
+    <div class="container secondary-color">
     <div class="row">
-        <div class="col-12">
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="col-12">
+                    <img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;"
+                         alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
+                </div>
+                <div class="col-12 pt-4">
+                    <img src="{{'assets/images/acn-logo.svg'|theme}}" style="width:120px;"
+                         alt="Apple Consultants Network logo">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-white mb-1">
+                        <strong>{{ 'Adresse'|_ }}</strong>
+                    </h6>
+                </div>
+                <div class="col-12 text-white">
+                    <small>38 place du commerce, bureau 11-134<br>
+                        Île des Soeurs (Québec)  Canada  H3E 1T8</small>
+                    <br>
+                    <small>
+                        <em>* {{ 'sur rendez-vous seulement'|_ }}</em>
+                    </small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 border-left">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-white mb-2">
+                        <strong>{{ 'Coordonnées de contact'|_ }}</strong>
+                    </h6>
+                    <a class="btn btn-outline-light btn-sm mr-3"
+                       href="tel:{{ this.theme.default_phone }}"><i class="fas fa-phone"></i>&nbsp;
+                            {{ this.theme.default_phone }}
+                    </a>
+                    <a class="btn btn-outline-light btn-sm"
+                        href="mailto:{{ this.theme.default_email }}"><i class="fas fa-envelope"></i>
+                            {{ this.theme.default_email }}
+                    </a>
+                </div>
+                <div class="col-12 text-white py-3">
+                    <small><strong>{{ 'Besoin d’un technicien :'|_ }}</strong></small><br>
+                    <a class="text-white" href="mailto:{{ this.theme.support_email }}">
+                        {{ this.theme.support_email }}</a>
+                </div>
+                <div class="col-12">
+                    {% partial 'socials' %}
+                </div>
+            </div>
         </div>
     </div>
     </div>
 </section>
-<section class="secondary-color">
+<section class="secondary-color-dark">
     <div class="container">
         <div class="row">
             <div class="col text-center py-2 text-white">
-
-                    © jolois.com - {{'Tous droits réservés'|_ }}
-
+                <small>© Jolois Consultants en Informatiques - {{'Tous droits réservés'|_ }}</small>
             </div>
         </div>
     </div>
