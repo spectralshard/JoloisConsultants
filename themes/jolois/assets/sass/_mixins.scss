@@ -74,3 +74,7 @@ a .page-link{
   background-color: $primary-color-dark;
   border-color: $primary-color-dark;
 }
+
+.gray-scale{
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);}

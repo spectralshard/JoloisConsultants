@@ -41,7 +41,41 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
             </div>
         </div>
     </div>
-</div>";
+</div>
+<section id=\"services\">
+    <div class=\"container\">
+        <div class=\"row my-0 my-sm-4 my-lg-5\">
+            <div class=\"col-12\">
+            </div>
+        </div>
+    </div>
+</section>
+<section id=\"temoignages\">
+    <div class=\"container\">
+        <div class=\"row my-0 my-sm-4 my-lg-5\">
+            <div class=\"col-12\">
+            </div>
+        </div>
+    </div>
+</section>
+<section id=\"pourquoi\">
+    <div class=\"container\">
+        <div class=\"row my-0 my-sm-4 my-lg-5\">
+            <div class=\"col-12\">
+            </div>
+        </div>
+    </div>
+</section>
+<section id=\"partenaires\" class=\"py-5 partner-box\">
+    <div class=\"container\">
+    ";
+        // line 35
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("partners"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 36
+        echo "    </div>
+</section>";
     }
 
     public function getTemplateName()
@@ -49,9 +83,14 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
         return "/Users/alexandrefoisy/web sites/jolois/themes/jolois/pages/home.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  37 => 1,);
+        return array (  77 => 36,  73 => 35,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -63,6 +102,35 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
             </div>
         </div>
     </div>
-</div>", "/Users/alexandrefoisy/web sites/jolois/themes/jolois/pages/home.htm", "");
+</div>
+<section id=\"services\">
+    <div class=\"container\">
+        <div class=\"row my-0 my-sm-4 my-lg-5\">
+            <div class=\"col-12\">
+            </div>
+        </div>
+    </div>
+</section>
+<section id=\"temoignages\">
+    <div class=\"container\">
+        <div class=\"row my-0 my-sm-4 my-lg-5\">
+            <div class=\"col-12\">
+            </div>
+        </div>
+    </div>
+</section>
+<section id=\"pourquoi\">
+    <div class=\"container\">
+        <div class=\"row my-0 my-sm-4 my-lg-5\">
+            <div class=\"col-12\">
+            </div>
+        </div>
+    </div>
+</section>
+<section id=\"partenaires\" class=\"py-5 partner-box\">
+    <div class=\"container\">
+    {% component 'partners' %}
+    </div>
+</section>", "/Users/alexandrefoisy/web sites/jolois/themes/jolois/pages/home.htm", "");
     }
 }

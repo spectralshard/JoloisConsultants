@@ -105,7 +105,7 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 26), "settings", [], "any", false, false, false, 26), "meta_description", [], "any", false, false, false, 26), "html", null, true);
         echo "\" />
     <meta property=\"og:locale\" content=\"fr_CA\">
-    <meta property=\"og:site_name\" content=\"Techno24.net\" />
+    <meta property=\"og:site_name\" content=\"Jolois\" />
     <meta name=\"twitter:title\" content=\"";
         // line 29
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 29), "meta_title", [], "any", false, false, false, 29), "html", null, true);
@@ -159,7 +159,7 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 48
         echo "</main>
-<footer>
+<footer class=\"footer\">
     ";
         // line 50
         $context['__cms_partial_params'] = [];
@@ -182,11 +182,11 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
         }
         $context["type"] = $_type;        $context["message"] = $_message;        // line 55
         echo "<script src=\"";
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/vendor/jquery/jquery-3.4.1.min.js", 1 => "assets/vendor/popper/popper.js", 2 => "assets/vendor/bootstrap/js/bootstrap.min.js", 3 => "assets/vendor/aos/js/aos.js", 4 => "assets/js/main.js"]);
-        // line 61
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/vendor/jquery/jquery-3.4.1.min.js", 1 => "assets/vendor/bootstrap/js/bootstrap.min.js", 2 => "assets/vendor/aos/js/aos.js", 3 => "assets/js/main.js"]);
+        // line 60
         echo "\"></script>
 ";
-        // line 62
+        // line 61
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -197,10 +197,10 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 63
+        // line 62
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 64
+        // line 63
         echo "</body>
 </html>";
     }
@@ -217,7 +217,7 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
 
     public function getDebugInfo()
     {
-        return array (  204 => 64,  201 => 63,  190 => 62,  187 => 61,  184 => 55,  175 => 53,  172 => 52,  169 => 51,  165 => 50,  161 => 48,  159 => 47,  155 => 45,  150 => 44,  146 => 43,  141 => 40,  138 => 39,  135 => 38,  133 => 36,  129 => 35,  125 => 34,  121 => 33,  115 => 30,  111 => 29,  105 => 26,  100 => 23,  95 => 21,  91 => 20,  86 => 19,  81 => 17,  77 => 16,  72 => 15,  70 => 14,  66 => 13,  62 => 12,  58 => 11,  52 => 8,  48 => 7,  44 => 6,  37 => 1,);
+        return array (  204 => 63,  201 => 62,  190 => 61,  187 => 60,  184 => 55,  175 => 53,  172 => 52,  169 => 51,  165 => 50,  161 => 48,  159 => 47,  155 => 45,  150 => 44,  146 => 43,  141 => 40,  138 => 39,  135 => 38,  133 => 36,  129 => 35,  125 => 34,  121 => 33,  115 => 30,  111 => 29,  105 => 26,  100 => 23,  95 => 21,  91 => 20,  86 => 19,  81 => 17,  77 => 16,  72 => 15,  70 => 14,  66 => 13,  62 => 12,  58 => 11,  52 => 8,  48 => 7,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -249,7 +249,7 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
     <meta property=\"og:type\" content=\"website\" />
     <meta property=\"og:description\" content=\"{{ this.page.settings.meta_description }}\" />
     <meta property=\"og:locale\" content=\"fr_CA\">
-    <meta property=\"og:site_name\" content=\"Techno24.net\" />
+    <meta property=\"og:site_name\" content=\"Jolois\" />
     <meta name=\"twitter:title\" content=\"{{ this.page.meta_title }} | Jolois\">
     <meta name=\"twitter:description\" content=\"{{ this.page.settings.meta_description }}\">
     <meta name=\"twitter:card\" content=\"summary_large_image\">
@@ -270,7 +270,7 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
 <main id=\"page\">
     {% page %}
 </main>
-<footer>
+<footer class=\"footer\">
     {% partial 'footer' %}
 </footer>
 {% flash %}
@@ -278,7 +278,6 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
 {% endflash %}
 <script src=\"{{ [
 'assets/vendor/jquery/jquery-3.4.1.min.js',
-'assets/vendor/popper/popper.js',
 'assets/vendor/bootstrap/js/bootstrap.min.js',
 'assets/vendor/aos/js/aos.js',
 'assets/js/main.js',

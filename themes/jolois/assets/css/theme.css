@@ -19185,6 +19185,12 @@ a .page-link {
   border-color: #04559B;
 }
 
+.gray-scale {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 .hero-home {
   background: url("../images/tech24-hero-home.jpg") no-repeat center center;
   -webkit-background-size: 100% 100%;
@@ -19323,6 +19329,10 @@ a:hover {
   text-decoration: none !important;
 }
 
+.text-primary {
+  color: #015FAF !important;
+}
+
 @media (min-width: 768px) {
   .marketing-partial {
     height: 600px;
@@ -19343,9 +19353,6 @@ a:hover {
 }
 
 /*
- Footer
-*/
-/*
  Cards
 */
 .card {
@@ -19356,6 +19363,31 @@ a:hover {
 
 .card:hover {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.footer {
+  position: relative;
+  z-index: 1;
+  margin-top: -50px !important;
+}
+
+.partner-box {
+  background-color: #EAECF0;
+  transform: skewY(-2deg);
+  z-index: 0;
+}
+.partner-box .container {
+  transform: skewY(2deg);
+}
+
+.diagonal-box {
+  transform: skewY(-11deg);
+}
+
+.content {
+  max-width: 50em;
+  margin: 0 auto;
+  transform: skewY(11deg);
 }
 
 .ui-front {
@@ -19999,14 +20031,14 @@ body {
 
 h1 {
   line-height: 1em;
-  font: 3.125em "Roboto", sans-serif;
+  font: 2.5em "Roboto", sans-serif;
   font-weight: 700;
   margin: 0.25em 0;
 }
 
 h2 {
   line-height: 1em;
-  font: 2.5em "Roboto", sans-serif;
+  font: 2em "Roboto", sans-serif;
   font-weight: 700;
   margin: 0.25em 0 0.5em 0;
 }
@@ -20175,7 +20207,7 @@ li {
   }
 
   .h2-responsive {
-    font-size: 2rem;
+    font-size: 1.95rem;
   }
 
   .h3-responsive {
@@ -20197,7 +20229,7 @@ li {
   }
 
   .h2-responsive {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   .h3-responsive {

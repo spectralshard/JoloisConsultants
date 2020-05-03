@@ -53,6 +53,10 @@ a:hover {
   text-decoration: none!important;
 }
 
+.text-primary{
+  color: $primary-color!important;
+}
+
 @include media-breakpoint-up(md) {
   .marketing-partial {
     height: 600px;
@@ -77,13 +81,6 @@ a:hover {
     }
   }
 }
-/*
- Footer
-*/
-
-#footer {
-
-}
 
 /*
  Cards
@@ -95,4 +92,29 @@ a:hover {
 }
 .card:hover {
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+.footer{
+  position: relative;
+  z-index: 1;
+  margin-top: -50px!important;
+}
+.partner-box{
+  background-color: #EAECF0;
+  transform: skewY(-2deg);
+  z-index: 0;
+  .container {
+    transform: skewY(2deg);
+  }
+}
+
+
+
+.diagonal-box {
+  transform: skewY(-11deg);
+}
+.content {
+  max-width: 50em;
+  margin: 0 auto;
+  transform: skewY(11deg);
 }

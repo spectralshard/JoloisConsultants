@@ -1,16 +1,17 @@
-1587608003a:1:{s:8:"home.htm";a:12:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:395:"title = "Jolois"
+1588525048a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1164:"title = "Acceuil"
 url = "/"
 layout = "default"
-meta_title = ""
-meta_description = ""
 is_hidden = 0
 
 [viewBag]
-localeTitle[en] = ""
 localeUrl[en] = "/"
 localeMeta_title[en] = ""
 localeMeta_description[en] = ""
 
+[partner partners]
+backgroundColor = "#ffffff"
+includeCSS = 1
+includeJS = 1
 ==
 <div class="jumbotron">
     <div class="container">
@@ -19,11 +20,69 @@ localeMeta_description[en] = ""
             </div>
         </div>
     </div>
-</div>";s:5:"mtime";i:1587605909;s:6:"markup";s:183:"<div class="jumbotron">
+</div>
+<section id="services">
     <div class="container">
         <div class="row my-0 my-sm-4 my-lg-5">
             <div class="col-12">
             </div>
         </div>
     </div>
-</div>";s:4:"code";N;s:5:"title";s:6:"Jolois";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:0:"";s:16:"meta_description";s:0:"";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:4:{s:11:"localeTitle";a:1:{s:2:"en";s:0:"";}s:9:"localeUrl";a:1:{s:2:"en";s:1:"/";}s:16:"localeMeta_title";a:1:{s:2:"en";s:0:"";}s:22:"localeMeta_description";a:1:{s:2:"en";s:0:"";}}}}
+</section>
+<section id="temoignages">
+    <div class="container">
+        <div class="row my-0 my-sm-4 my-lg-5">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="pourquoi">
+    <div class="container">
+        <div class="row my-0 my-sm-4 my-lg-5">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="partenaires" class="py-5 partner-box">
+    <div class="container">
+    {% component 'partners' %}
+    </div>
+</section>";s:5:"mtime";i:1588524447;s:6:"markup";s:919:"<div class="jumbotron">
+    <div class="container">
+        <div class="row my-0 my-sm-4 my-lg-5">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+</div>
+<section id="services">
+    <div class="container">
+        <div class="row my-0 my-sm-4 my-lg-5">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="temoignages">
+    <div class="container">
+        <div class="row my-0 my-sm-4 my-lg-5">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="pourquoi">
+    <div class="container">
+        <div class="row my-0 my-sm-4 my-lg-5">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="partenaires" class="py-5 partner-box">
+    <div class="container">
+    {% component 'partners' %}
+    </div>
+</section>";s:4:"code";N;s:5:"title";s:7:"Acceuil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:1:"/";}s:16:"localeMeta_title";a:1:{s:2:"en";s:0:"";}s:22:"localeMeta_description";a:1:{s:2:"en";s:0:"";}}s:16:"partner partners";a:3:{s:15:"backgroundColor";s:7:"#ffffff";s:10:"includeCSS";s:1:"1";s:9:"includeJS";s:1:"1";}}}

@@ -34,54 +34,64 @@ class __TwigTemplate_f0b58b6cc56cb65409f2df8d2551d4261e49bc0d81384e4b9c05fda821b
     {
         $macros = $this->macros;
         // line 1
-        echo "<section class=\"secondary-color\">
+        echo "<section class=\"secondary-color-dark\">
     <div class=\"container\">
         <div class=\"row justify-content-end\">
-            <div class=\"col text-sm-right p-2 d-none d-sm-block\">
-\t\t\t\t<span class=\"pr-3 white-text align-top\">
-\t\t\t\t<i class=\"fas fa-paper-plane\"></i>&nbsp;
-\t\t\t\t<a href=\"mailto:info@techno24.net\" style=\"color:white!important;\">info@techno24.net</a>
-\t\t\t\t</span>
+\t\t\t<div class=\"col\">
+\t\t\t\t";
+        // line 5
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("socials"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 6
+        echo "\t\t\t</div>
+            <div class=\"col text-sm-right p-2\">
                 <span class=\"pr-3 white-text\">
-\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
-\t\t\t\t<a href=\"tel:15146386924\" style=\"color:white!important;\">514 638-6924</a> /
-\t\t\t\t<a href=\"tel:18669981221\" style=\"color:white!important;\">1 866 998-1221</a>
+\t\t\t\t<a href=\"tel:";
+        // line 9
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 9), "default_phone", [], "any", false, false, false, 9), "html", null, true);
+        echo "\" style=\"color:white!important;\">
+\t\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
+\t\t\t\t\t";
+        // line 11
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 11), "default_phone", [], "any", false, false, false, 11), "html", null, true);
+        echo "</a>
 \t\t\t\t</span>
-                <a href=\"";
+\t\t\t\t<span class=\"pr-3 white-text align-top\">
+\t\t\t\t<a href=\"mailto:";
         // line 14
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 14), "facebook_url", [], "any", false, false, false, 14), "html", null, true);
-        echo "\" target=\"_blank\">
-                    <i class=\"fab fa-facebook white-text\" style=\"padding-right: 3px; font-size:18px;\"></i>
-                </a>
-                <a href=\"";
-        // line 17
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 17), "twitter_url", [], "any", false, false, false, 17), "html", null, true);
-        echo "\" target=\"_blank\">
-\t\t\t\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;margin-top:2px;\">
-\t\t\t\t  <i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t\t\t  <i class=\"fab fa-twitter fa-stack-1x\" style=\"color:#E79435;\"></i>
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 14), "default_email", [], "any", false, false, false, 14), "html", null, true);
+        echo "\" class=\"text-uppercase\" style=\"color:white!important;\">
+\t\t\t\t\t<i class=\"fas fa-envelope\"></i>
+\t\t\t\t\t";
+        // line 16
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 16), "default_email", [], "any", false, false, false, 16), "html", null, true);
+        echo "</a>
 \t\t\t\t</span>
-                </a>
-                <a href=\"";
-        // line 23
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 23), "linkedin_url", [], "any", false, false, false, 23), "html", null, true);
-        echo "\" target=\"_blank\">
-\t\t\t\t\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:2px;\">
-\t\t\t\t  <i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t\t\t  <i class=\"fab fa-linkedin-in fa-stack-1x\" style=\"color:#E79435;\"></i>
-\t\t\t\t</span>
-                </a>
-            </div>
-            <div class=\"col text-sm-right p-2 d-block d-sm-none\">
-\t\t\t\t<span class=\"pr-3 white-text align-top\">
-\t\t\t\t<i class=\"fas fa-paper-plane\"></i>&nbsp;
-\t\t\t\t<a href=\"mailto:info@techno24.net\" style=\"color:white!important;\">info@techno24.net</a>
-\t\t\t\t</span>
-                <span class=\"pr-3 white-text\">
-\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
-\t\t\t\t<a href=\"tel:15146386924\" style=\"color:white!important;\">514 638-6924</a> /
-\t\t\t\t<a href=\"tel:1866998121\" style=\"color:white!important;\">1 866 998-121</a>
-\t\t\t\t</span>
+\t\t\t\t<span>
+\t\t\t\t";
+        // line 19
+        if ((($context["lang"] ?? null) == "fr")) {
+            // line 20
+            echo "\t\t\t\t<a href=\"#\"
+\t\t\t\t   class=\"text-white\"
+\t\t\t\t   data-request=\"onSwitchLocale\"
+\t\t\t\t   data-request-data=\"locale: 'en'\" title=\"English\">
+\t\t\t\t\tENGLISH
+\t\t\t\t</a>
+\t\t\t\t";
+        } else {
+            // line 27
+            echo "\t\t\t\t<a href=\"#\"
+\t\t\t\t   class=\"text-white\"
+\t\t\t\t   data-request=\"onSwitchLocale\"
+\t\t\t\t   data-request-data=\"locale: 'fr'\" title=\"Français\">
+\t\t\t\t\tFRANÇAIS
+\t\t\t\t</a>
+\t\t\t\t";
+        }
+        // line 34
+        echo "\t\t\t\t</span>
             </div>
         </div>
     </div>
@@ -100,49 +110,44 @@ class __TwigTemplate_f0b58b6cc56cb65409f2df8d2551d4261e49bc0d81384e4b9c05fda821b
 
     public function getDebugInfo()
     {
-        return array (  67 => 23,  58 => 17,  52 => 14,  37 => 1,);
+        return array (  94 => 34,  85 => 27,  76 => 20,  74 => 19,  68 => 16,  63 => 14,  57 => 11,  52 => 9,  47 => 6,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<section class=\"secondary-color\">
+        return new Source("<section class=\"secondary-color-dark\">
     <div class=\"container\">
         <div class=\"row justify-content-end\">
-            <div class=\"col text-sm-right p-2 d-none d-sm-block\">
-\t\t\t\t<span class=\"pr-3 white-text align-top\">
-\t\t\t\t<i class=\"fas fa-paper-plane\"></i>&nbsp;
-\t\t\t\t<a href=\"mailto:info@techno24.net\" style=\"color:white!important;\">info@techno24.net</a>
-\t\t\t\t</span>
+\t\t\t<div class=\"col\">
+\t\t\t\t{% partial 'socials' %}
+\t\t\t</div>
+            <div class=\"col text-sm-right p-2\">
                 <span class=\"pr-3 white-text\">
-\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
-\t\t\t\t<a href=\"tel:15146386924\" style=\"color:white!important;\">514 638-6924</a> /
-\t\t\t\t<a href=\"tel:18669981221\" style=\"color:white!important;\">1 866 998-1221</a>
+\t\t\t\t<a href=\"tel:{{ this.theme.default_phone }}\" style=\"color:white!important;\">
+\t\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
+\t\t\t\t\t{{ this.theme.default_phone }}</a>
 \t\t\t\t</span>
-                <a href=\"{{ this.theme.facebook_url }}\" target=\"_blank\">
-                    <i class=\"fab fa-facebook white-text\" style=\"padding-right: 3px; font-size:18px;\"></i>
-                </a>
-                <a href=\"{{ this.theme.twitter_url }}\" target=\"_blank\">
-\t\t\t\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;margin-top:2px;\">
-\t\t\t\t  <i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t\t\t  <i class=\"fab fa-twitter fa-stack-1x\" style=\"color:#E79435;\"></i>
-\t\t\t\t</span>
-                </a>
-                <a href=\"{{ this.theme.linkedin_url }}\" target=\"_blank\">
-\t\t\t\t\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:2px;\">
-\t\t\t\t  <i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t\t\t  <i class=\"fab fa-linkedin-in fa-stack-1x\" style=\"color:#E79435;\"></i>
-\t\t\t\t</span>
-                </a>
-            </div>
-            <div class=\"col text-sm-right p-2 d-block d-sm-none\">
 \t\t\t\t<span class=\"pr-3 white-text align-top\">
-\t\t\t\t<i class=\"fas fa-paper-plane\"></i>&nbsp;
-\t\t\t\t<a href=\"mailto:info@techno24.net\" style=\"color:white!important;\">info@techno24.net</a>
+\t\t\t\t<a href=\"mailto:{{ this.theme.default_email }}\" class=\"text-uppercase\" style=\"color:white!important;\">
+\t\t\t\t\t<i class=\"fas fa-envelope\"></i>
+\t\t\t\t\t{{ this.theme.default_email }}</a>
 \t\t\t\t</span>
-                <span class=\"pr-3 white-text\">
-\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
-\t\t\t\t<a href=\"tel:15146386924\" style=\"color:white!important;\">514 638-6924</a> /
-\t\t\t\t<a href=\"tel:1866998121\" style=\"color:white!important;\">1 866 998-121</a>
+\t\t\t\t<span>
+\t\t\t\t{% if lang == 'fr' %}
+\t\t\t\t<a href=\"#\"
+\t\t\t\t   class=\"text-white\"
+\t\t\t\t   data-request=\"onSwitchLocale\"
+\t\t\t\t   data-request-data=\"locale: 'en'\" title=\"English\">
+\t\t\t\t\tENGLISH
+\t\t\t\t</a>
+\t\t\t\t{% else %}
+\t\t\t\t<a href=\"#\"
+\t\t\t\t   class=\"text-white\"
+\t\t\t\t   data-request=\"onSwitchLocale\"
+\t\t\t\t   data-request-data=\"locale: 'fr'\" title=\"Français\">
+\t\t\t\t\tFRANÇAIS
+\t\t\t\t</a>
+\t\t\t\t{% endif %}
 \t\t\t\t</span>
             </div>
         </div>
