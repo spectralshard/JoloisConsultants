@@ -1,57 +1,59 @@
-<div class="row">
+<div class="row pb-5">
     <div class="col-12">
         <h2 class="h2-responsive text-uppercase text-primary text-center">
-            Pourquoi nous choisir?
+            {{ 'Pourquoi nous choisir?'|_ }}
         </h2>
     </div>
 </div>
 <div class="row">
-    <div class="col-xs-12 col-sm-4">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="h3-responsive text-uppercase text-primary text-center">
-                    Réparation de MAC et PC
+    <div class="col-xs-12 col-sm-4 pb-3">
+        <div class="row flex justify-content-center">
+            <div class="col-xs-12 col-sm-10 text-center">
+                <img src="{{'assets/images/computer.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Réparation de MAC et PC'|_ }}">
+                <h3 class="h3-responsive text-uppercase text-primary mt-4">
+                    {{ 'Réparation de MAC et PC'|_ }}
                 </h3>
-            </div>
-            <div class="col-12 text-center">
-                <p>Notre équipe est spécilisé dans la réparation et la configuration de poste de travail MAC et PC.</p>
+                <p>{{ 'Notre équipe est spécilisé dans la réparation et la configuration de poste de travail MAC et PC.'|_ }}</p>
             </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-4">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="h3-responsive text-uppercase text-primary text-center">
-                    Services de qualité
+    <div class="col-xs-12 col-sm-4 pb-3">
+        <div class="row flex justify-content-center">
+            <div class="col-xs-12 col-sm-10 text-center">
+                <img src="{{'assets/images/qualite.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Services de qualité'|_ }}">
+                <h3 class="h3-responsive text-uppercase text-primary mt-4">
+                    {{ ' Services de qualité'|_ }}
                 </h3>
-            </div>
-            <div class="col-12 text-center">
-                <p>Notre équipe se fera un plaisir de vous répondre de façon personnalisée, rapide et efficace à vos besoins réels en informatique!</p>
+                <p>{{ 'Notre équipe se fera un plaisir de vous répondre de façon personnalisée, rapide et efficace à vos besoins réels en informatique!'|_ }}</p>
             </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-4">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="h3-responsive text-uppercase text-primary text-center">
-                    Certifier  par Apple
+    <div class="col-xs-12 col-sm-4 pb-3">
+        <div class="row flex justify-content-center">
+            <div class="col-xs-12 col-sm-10 text-center">
+                <img src="{{'assets/images/apple.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Certifier par Apple'|_ }}">
+                <h3 class="h3-responsive text-uppercase text-primary mt-4">
+                    {{ 'Certifier par Apple'|_ }}
                 </h3>
-            </div>
-            <div class="col-12 text-center">
-                <p>Nos techniciens sont certifier pour toujours être au summum des exigences d’Apple</p>
+                <p>{{ 'Nos techniciens sont certifier pour toujours être au summum des exigences d’Apple'|_ }}</p>
             </div>
         </div>
     </div>
 </div>
-<div class="card primary-color my-5">
-    <div class="card-body">
-        <div class="row">
-            <div class="col-xs-12 col-sm-3">
-            </div>
-            <div class="col-xs-12 col-sm-9">
-            <h5 class="h5-responsive text-uppercase text-white">
-                Nous offront le recyclage de votre ancien Mac ou PC à l'achat d'un nouvel ordinateur!
-            </h5>
+<div class="row flex justify-content-center">
+    <div class="col-xs-12 col-sm-10">
+        <div class="card primary-color my-5" style="border-radius:5px;">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 py-2">
+                        <img src="{{'assets/images/recuperation.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Recyclage de votre ancien Mac ou PC'|_ }}">
+                    </div>
+                    <div class="col-xs-12 col-sm-9">
+                        <h5 class="h5-responsive text-white py-3 mt-2">
+                            {{ 'Nous offront le recyclage de votre ancien Mac ou PC à l\'achat d\'un nouvel ordinateur!'|_ }}
+                        </h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
