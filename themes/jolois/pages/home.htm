@@ -8,6 +8,9 @@ localeUrl[en] = "/"
 localeMeta_title[en] = ""
 localeMeta_description[en] = ""
 
+[testimonials testimonialsBloc]
+backgroundColor = "#1b2945"
+textColor = "#3db166"
 ==
 <div class="jumbotron">
     <div class="container">
@@ -25,14 +28,7 @@ localeMeta_description[en] = ""
         </div>
     </div>
 </section>
-<section id="temoignages">
-    <div class="container">
-        <div class="row my-0 my-sm-4 my-lg-5">
-            <div class="col-12">
-            </div>
-        </div>
-    </div>
-</section>
+{% component 'testimonialsBloc' %}
 <section id="pourquoi">
     <div class="container py-5">
         {% partial 'reusable/pourquoi' %}

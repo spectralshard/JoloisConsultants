@@ -19273,6 +19273,37 @@ p img {
   left: 0;
 }
 
+.testim {
+  background-color: #015FAF;
+  overflow: hidden;
+  min-height: 400px;
+  padding-top: 200px;
+}
+
+.testim::before {
+  background-image: url("../images/testimonial-bg.jpg");
+  background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.1;
+}
+
+.testim .arrow:hover, .testim .cont div h2 {
+  color: #fff;
+}
+
+.testim .dots .dot.active,
+.testim .dots .dot:hover {
+  background: #015FAF;
+  border-color: #015FAF;
+}
+
 /*
  General CSS tricks
 */
@@ -19381,13 +19412,7 @@ a:hover {
 }
 
 .diagonal-box {
-  transform: skewY(-11deg);
-}
-
-.content {
-  max-width: 50em;
-  margin: 0 auto;
-  transform: skewY(11deg);
+  clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
 }
 
 .ui-front {

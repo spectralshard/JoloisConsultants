@@ -50,22 +50,20 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
         </div>
     </div>
 </section>
-<section id=\"temoignages\">
-    <div class=\"container\">
-        <div class=\"row my-0 my-sm-4 my-lg-5\">
-            <div class=\"col-12\">
-            </div>
-        </div>
-    </div>
-</section>
-<section id=\"pourquoi\">
+";
+        // line 17
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("testimonialsBloc"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 18
+        echo "<section id=\"pourquoi\">
     <div class=\"container py-5\">
         ";
-        // line 27
+        // line 20
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("reusable/pourquoi"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 28
+        // line 21
         echo "    </div>
 </section>";
     }
@@ -82,7 +80,7 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
 
     public function getDebugInfo()
     {
-        return array (  69 => 28,  65 => 27,  37 => 1,);
+        return array (  67 => 21,  63 => 20,  59 => 18,  55 => 17,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -103,14 +101,7 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
         </div>
     </div>
 </section>
-<section id=\"temoignages\">
-    <div class=\"container\">
-        <div class=\"row my-0 my-sm-4 my-lg-5\">
-            <div class=\"col-12\">
-            </div>
-        </div>
-    </div>
-</section>
+{% component 'testimonialsBloc' %}
 <section id=\"pourquoi\">
     <div class=\"container py-5\">
         {% partial 'reusable/pourquoi' %}

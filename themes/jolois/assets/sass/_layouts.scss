@@ -107,14 +107,6 @@ a:hover {
     transform: skewY(2deg);
   }
 }
-
-
-
 .diagonal-box {
-  transform: skewY(-11deg);
-}
-.content {
-  max-width: 50em;
-  margin: 0 auto;
-  transform: skewY(11deg);
+  clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
 }

@@ -1,4 +1,4 @@
-1588526168a:1:{s:8:"home.htm";a:10:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:878:"title = "Acceuil"
+1588610652a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:798:"title = "Acceuil"
 url = "/"
 layout = "default"
 is_hidden = 0
@@ -8,6 +8,9 @@ localeUrl[en] = "/"
 localeMeta_title[en] = ""
 localeMeta_description[en] = ""
 
+[testimonials testimonialsBloc]
+backgroundColor = "#1b2945"
+textColor = "#3db166"
 ==
 <div class="jumbotron">
     <div class="container">
@@ -25,20 +28,12 @@ localeMeta_description[en] = ""
         </div>
     </div>
 </section>
-<section id="temoignages">
-    <div class="container">
-        <div class="row my-0 my-sm-4 my-lg-5">
-            <div class="col-12">
-            </div>
-        </div>
-    </div>
-</section>
+{% component 'testimonialsBloc' %}
 <section id="pourquoi">
     <div class="container py-5">
         {% partial 'reusable/pourquoi' %}
     </div>
-</section>
-";s:5:"mtime";i:1588525554;s:6:"markup";s:711:"<div class="jumbotron">
+</section>";s:5:"mtime";i:1588605282;s:6:"markup";s:548:"<div class="jumbotron">
     <div class="container">
         <div class="row my-0 my-sm-4 my-lg-5">
             <div class="col-12">
@@ -54,16 +49,9 @@ localeMeta_description[en] = ""
         </div>
     </div>
 </section>
-<section id="temoignages">
-    <div class="container">
-        <div class="row my-0 my-sm-4 my-lg-5">
-            <div class="col-12">
-            </div>
-        </div>
-    </div>
-</section>
+{% component 'testimonialsBloc' %}
 <section id="pourquoi">
     <div class="container py-5">
         {% partial 'reusable/pourquoi' %}
     </div>
-</section>";s:4:"code";N;s:5:"title";s:7:"Acceuil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:1:"/";}s:16:"localeMeta_title";a:1:{s:2:"en";s:0:"";}s:22:"localeMeta_description";a:1:{s:2:"en";s:0:"";}}}}
+</section>";s:4:"code";N;s:5:"title";s:7:"Acceuil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:1:"/";}s:16:"localeMeta_title";a:1:{s:2:"en";s:0:"";}s:22:"localeMeta_description";a:1:{s:2:"en";s:0:"";}}s:29:"testimonials testimonialsBloc";a:2:{s:15:"backgroundColor";s:7:"#1b2945";s:9:"textColor";s:7:"#3db166";}}}
