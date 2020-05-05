@@ -1,4 +1,4 @@
-1588610652a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:798:"title = "Acceuil"
+1588702476a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:725:"title = "Acceuil"
 url = "/"
 layout = "default"
 is_hidden = 0
@@ -20,12 +20,9 @@ textColor = "#3db166"
         </div>
     </div>
 </div>
-<section id="services">
-    <div class="container">
-        <div class="row my-0 my-sm-4 my-lg-5">
-            <div class="col-12">
-            </div>
-        </div>
+<section id="services ">
+    <div class="container py-5">
+        {% partial 'home/services' %}
     </div>
 </section>
 {% component 'testimonialsBloc' %}
@@ -33,7 +30,7 @@ textColor = "#3db166"
     <div class="container py-5">
         {% partial 'reusable/pourquoi' %}
     </div>
-</section>";s:5:"mtime";i:1588605282;s:6:"markup";s:548:"<div class="jumbotron">
+</section>";s:5:"mtime";i:1588701876;s:6:"markup";s:475:"<div class="jumbotron">
     <div class="container">
         <div class="row my-0 my-sm-4 my-lg-5">
             <div class="col-12">
@@ -41,12 +38,9 @@ textColor = "#3db166"
         </div>
     </div>
 </div>
-<section id="services">
-    <div class="container">
-        <div class="row my-0 my-sm-4 my-lg-5">
-            <div class="col-12">
-            </div>
-        </div>
+<section id="services ">
+    <div class="container py-5">
+        {% partial 'home/services' %}
     </div>
 </section>
 {% component 'testimonialsBloc' %}
