@@ -34,38 +34,43 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
     {
         $macros = $this->macros;
         // line 1
-        echo "<div class=\"jumbotron\">
-    <div class=\"container\">
-        <div class=\"row my-0 my-sm-4 my-lg-5\">
-            <div class=\"col-12\">
+        echo "<div class=\"hero-home banner py-5\">
+    <div class=\"container py-5\">
+        <div class=\"banner-text\">
+            <div class=\"banner-heading text-uppercase\">
+                Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!
             </div>
+            <a class=\"btn btn-outline-light text-uppercase\" href=\"";
+        // line 7
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("contact");
+        echo "\">Contactez nous</a>
         </div>
     </div>
 </div>
-<section id=\"services \">
+<section id=\"services\" class=\"pt-5\">
     <div class=\"container py-5\">
         ";
-        // line 11
+        // line 13
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("home/services"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 12
+        // line 14
         echo "    </div>
 </section>
 ";
-        // line 14
+        // line 16
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("testimonialsBloc"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 15
+        // line 17
         echo "<section id=\"pourquoi\">
     <div class=\"container py-5\">
         ";
-        // line 17
+        // line 19
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("reusable/pourquoi"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 18
+        // line 20
         echo "    </div>
 </section>";
     }
@@ -82,20 +87,22 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
 
     public function getDebugInfo()
     {
-        return array (  69 => 18,  65 => 17,  61 => 15,  57 => 14,  53 => 12,  49 => 11,  37 => 1,);
+        return array (  74 => 20,  70 => 19,  66 => 17,  62 => 16,  58 => 14,  54 => 13,  45 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"jumbotron\">
-    <div class=\"container\">
-        <div class=\"row my-0 my-sm-4 my-lg-5\">
-            <div class=\"col-12\">
+        return new Source("<div class=\"hero-home banner py-5\">
+    <div class=\"container py-5\">
+        <div class=\"banner-text\">
+            <div class=\"banner-heading text-uppercase\">
+                Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!
             </div>
+            <a class=\"btn btn-outline-light text-uppercase\" href=\"{{ 'contact'|page }}\">Contactez nous</a>
         </div>
     </div>
 </div>
-<section id=\"services \">
+<section id=\"services\" class=\"pt-5\">
     <div class=\"container py-5\">
         {% partial 'home/services' %}
     </div>

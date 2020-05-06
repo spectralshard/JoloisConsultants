@@ -34,7 +34,7 @@ class __TwigTemplate_f0b58b6cc56cb65409f2df8d2551d4261e49bc0d81384e4b9c05fda821b
     {
         $macros = $this->macros;
         // line 1
-        echo "<section class=\"secondary-color-dark\">
+        echo "<section id=\"header\" class=\"secondary-color-dark\">
     <div class=\"container\">
         <div class=\"row justify-content-end\">
 \t\t\t<div class=\"col\">
@@ -115,7 +115,7 @@ class __TwigTemplate_f0b58b6cc56cb65409f2df8d2551d4261e49bc0d81384e4b9c05fda821b
 
     public function getSourceContext()
     {
-        return new Source("<section class=\"secondary-color-dark\">
+        return new Source("<section id=\"header\" class=\"secondary-color-dark\">
     <div class=\"container\">
         <div class=\"row justify-content-end\">
 \t\t\t<div class=\"col\">

@@ -61,4 +61,6 @@
   'JanVince\\SmallContactForm\\Models\\Settings' => 'plugins/janvince/smallcontactform/models/Settings.php',
   'Romanov\\ClearCacheWidget\\ReportWidgets\\ClearCache' => 'plugins/romanov/clearcachewidget/reportwidgets/ClearCache.php',
   'Rainlab\\Translate\\Console\\ScanCommand' => 'plugins/rainlab/translate/console/ScanCommand.php',
+  'zainab\\simplecontact\\Controllers\\simplecontact' => 'plugins/zainab/simplecontact/controllers/simplecontact.php',
+  'backend\\Controllers\\media' => 'modules/backend/controllers/media.php',
 );

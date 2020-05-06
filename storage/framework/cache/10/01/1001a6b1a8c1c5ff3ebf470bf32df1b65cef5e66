@@ -1,4 +1,4 @@
-1588702476a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:725:"title = "Acceuil"
+1588785951a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:956:"title = "Acceuil"
 url = "/"
 layout = "default"
 is_hidden = 0
@@ -12,15 +12,17 @@ localeMeta_description[en] = ""
 backgroundColor = "#1b2945"
 textColor = "#3db166"
 ==
-<div class="jumbotron">
-    <div class="container">
-        <div class="row my-0 my-sm-4 my-lg-5">
-            <div class="col-12">
+<div class="hero-home banner py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!
             </div>
+            <a class="btn btn-outline-light text-uppercase" href="{{ 'contact'|page }}">Contactez nous</a>
         </div>
     </div>
 </div>
-<section id="services ">
+<section id="services" class="pt-5">
     <div class="container py-5">
         {% partial 'home/services' %}
     </div>
@@ -30,15 +32,17 @@ textColor = "#3db166"
     <div class="container py-5">
         {% partial 'reusable/pourquoi' %}
     </div>
-</section>";s:5:"mtime";i:1588701876;s:6:"markup";s:475:"<div class="jumbotron">
-    <div class="container">
-        <div class="row my-0 my-sm-4 my-lg-5">
-            <div class="col-12">
+</section>";s:5:"mtime";i:1588785138;s:6:"markup";s:706:"<div class="hero-home banner py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!
             </div>
+            <a class="btn btn-outline-light text-uppercase" href="{{ 'contact'|page }}">Contactez nous</a>
         </div>
     </div>
 </div>
-<section id="services ">
+<section id="services" class="pt-5">
     <div class="container py-5">
         {% partial 'home/services' %}
     </div>

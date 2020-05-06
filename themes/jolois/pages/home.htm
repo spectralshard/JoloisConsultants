@@ -12,15 +12,17 @@ localeMeta_description[en] = ""
 backgroundColor = "#1b2945"
 textColor = "#3db166"
 ==
-<div class="jumbotron">
-    <div class="container">
-        <div class="row my-0 my-sm-4 my-lg-5">
-            <div class="col-12">
+<div class="hero-home banner py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!
             </div>
+            <a class="btn btn-outline-light text-uppercase" href="{{ 'contact'|page }}">Contactez nous</a>
         </div>
     </div>
 </div>
-<section id="services ">
+<section id="services" class="pt-5">
     <div class="container py-5">
         {% partial 'home/services' %}
     </div>
