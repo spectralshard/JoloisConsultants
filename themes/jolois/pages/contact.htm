@@ -1,0 +1,65 @@
+title = "Contact"
+url = "/contact-nous"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/contact-us"
+localeMeta_title[en] = ""
+localeMeta_description[en] = ""
+
+[simpleContact ContactForm]
+nameTitle = "Votre nom"
+emailTitle = "Courriel"
+phoneTitle = "Téléphone"
+subjectTitle = "Sujet"
+messageTitle = "Message"
+buttonText = "Soumettre"
+displayPhone = 1
+==
+<div class="hero-home banner py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                {{ 'Nous Contacter'|_ }}
+            </div>
+        </div>
+    </div>
+</div>
+<section id="contact" class="py-5">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xs-12 col-sm-5 pb-3">
+                {% component 'ContactForm' %}
+            </div>
+            <div class="col-xs-12 col-sm-1 d-none d-sm-block">
+            </div>
+            <div class="col-xs-12 col-sm-4 border-primary border-left" style="height: 100%;">
+                <h3 class="h3-responsive text-primary mt-0">
+                    {{ 'Adresse postale'|_ }}
+                </h3>
+                <p>
+                    <em>* {{ 'sur rendez-vous seulement'|_ }}</em>
+                <br/>
+                    38 place du commerce, bureau 11-134<br />
+                    Ile des Soeurs (Québec)  Canada H3E 1T8
+                </p>
+                <p>
+                <a href="tel:{{ this.theme.default_phone }}">
+                    <i class="fas fa-phone"></i>&nbsp;
+                    {{ this.theme.default_phone }}</a>
+                </p>
+                <p>
+                <a href="mailto:{{ this.theme.default_email }}">
+                    <i class="fas fa-envelope"></i>&nbsp;
+                    {{ this.theme.default_email }}</a>
+                </p>
+                <p class="mb-0">
+                    <strong>{{ 'Besoin d’un technicien :'|_ }}</strong><br>
+                    <a href="mailto:{{ this.theme.support_email }}">
+                        {{ this.theme.support_email }}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
