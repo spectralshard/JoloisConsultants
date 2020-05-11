@@ -63,4 +63,9 @@
   'Rainlab\\Translate\\Console\\ScanCommand' => 'plugins/rainlab/translate/console/ScanCommand.php',
   'zainab\\simplecontact\\Controllers\\simplecontact' => 'plugins/zainab/simplecontact/controllers/simplecontact.php',
   'backend\\Controllers\\media' => 'modules/backend/controllers/media.php',
+  'Zainab\\SimpleContact\\Models\\Settings' => 'plugins/zainab/simplecontact/models/Settings.php',
+  'janvince\\smallcontactform\\Controllers\\messages' => 'plugins/janvince/smallcontactform/controllers/messages.php',
+  'JanVince\\SmallContactForm\\Models\\MessageExport' => 'plugins/janvince/smallcontactform/models/MessageExport.php',
+  'JanVince\\SmallContactForm\\Models\\Message' => 'plugins/janvince/smallcontactform/models/Message.php',
+  'RainLab\\Translate\\FormWidgets\\MLRepeater' => 'plugins/rainlab/translate/formwidgets/MLRepeater.php',
 );

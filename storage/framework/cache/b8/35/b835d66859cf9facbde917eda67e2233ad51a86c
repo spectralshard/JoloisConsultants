@@ -1,4 +1,4 @@
-1588785952a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1174:"description = "Header"
+1589227824a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1180:"description = "Header"
 ==
 <section id="header" class="secondary-color-dark">
     <div class="container">
@@ -14,7 +14,7 @@
 				</span>
 				<span class="pr-3 white-text align-top">
 				<a href="mailto:{{ this.theme.default_email }}" class="text-uppercase" style="color:white!important;">
-					<i class="fas fa-envelope"></i>
+					<i class="fas fa-envelope"></i>&nbsp;
 					{{ this.theme.default_email }}</a>
 				</span>
 				<span>
@@ -37,7 +37,7 @@
             </div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1588783669;s:6:"markup";s:1148:"<section id="header" class="secondary-color-dark">
+</section>";s:5:"mtime";i:1588863832;s:6:"markup";s:1154:"<section id="header" class="secondary-color-dark">
     <div class="container">
         <div class="row justify-content-end">
 			<div class="col">
@@ -51,7 +51,7 @@
 				</span>
 				<span class="pr-3 white-text align-top">
 				<a href="mailto:{{ this.theme.default_email }}" class="text-uppercase" style="color:white!important;">
-					<i class="fas fa-envelope"></i>
+					<i class="fas fa-envelope"></i>&nbsp;
 					{{ this.theme.default_email }}</a>
 				</span>
 				<span>

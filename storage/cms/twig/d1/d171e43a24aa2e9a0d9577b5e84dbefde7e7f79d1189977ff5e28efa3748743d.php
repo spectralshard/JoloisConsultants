@@ -38,12 +38,17 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
     <div class=\"container py-5\">
         <div class=\"banner-text\">
             <div class=\"banner-heading text-uppercase\">
-                Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!
+                ";
+        // line 5
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!"]);
+        echo "
             </div>
             <a class=\"btn btn-outline-light text-uppercase\" href=\"";
         // line 7
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("contact");
-        echo "\">Contactez nous</a>
+        echo "\">";
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Contactez nous"]);
+        echo "</a>
         </div>
     </div>
 </div>
@@ -87,7 +92,7 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
 
     public function getDebugInfo()
     {
-        return array (  74 => 20,  70 => 19,  66 => 17,  62 => 16,  58 => 14,  54 => 13,  45 => 7,  37 => 1,);
+        return array (  79 => 20,  75 => 19,  71 => 17,  67 => 16,  63 => 14,  59 => 13,  48 => 7,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -96,9 +101,9 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
     <div class=\"container py-5\">
         <div class=\"banner-text\">
             <div class=\"banner-heading text-uppercase\">
-                Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!
+                {{ 'Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!'|_ }}
             </div>
-            <a class=\"btn btn-outline-light text-uppercase\" href=\"{{ 'contact'|page }}\">Contactez nous</a>
+            <a class=\"btn btn-outline-light text-uppercase\" href=\"{{ 'contact'|page }}\">{{ 'Contactez nous'|_ }}</a>
         </div>
     </div>
 </div>

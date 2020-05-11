@@ -96,27 +96,25 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t<li class=\"nav-item\">
 \t\t\t\t<a class=\"nav-link\" href=\"";
         // line 30
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("services");
-        echo "\">
-\t\t\t\t\t";
-        // line 31
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("services-et-tarifs");
+        echo "\">";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Services"]);
         echo "</a>
 \t\t\t</li>
 \t\t\t<li class=\"nav-item\">
 \t\t\t\t<a class=\"nav-link\" href=\"";
-        // line 34
+        // line 33
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("contact");
         echo "\">
 \t\t\t\t\t";
-        // line 35
+        // line 34
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Contact"]);
         echo "</a>
 \t\t\t</li>
 \t\t\t<li class=\"nav-item pl-3 d-none d-sm-block\">
 \t\t\t\t<a class=\"btn btn-primary\" href=\"mailto:";
-        // line 38
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 38), "support_email", [], "any", false, false, false, 38), "html", null, true);
+        // line 37
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 37), "support_email", [], "any", false, false, false, 37), "html", null, true);
         echo "\" target=\"_blank\">";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Demande de support"]);
         echo "</a>
@@ -139,7 +137,7 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 
     public function getDebugInfo()
     {
-        return array (  119 => 38,  113 => 35,  109 => 34,  103 => 31,  99 => 30,  90 => 26,  86 => 25,  82 => 24,  78 => 23,  72 => 20,  63 => 14,  59 => 13,  45 => 4,  41 => 3,  37 => 1,);
+        return array (  117 => 37,  111 => 34,  107 => 33,  99 => 30,  90 => 26,  86 => 25,  82 => 24,  78 => 23,  72 => 20,  63 => 14,  59 => 13,  45 => 4,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -173,8 +171,7 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t\t</div>
 \t\t\t</li>
 \t\t\t<li class=\"nav-item\">
-\t\t\t\t<a class=\"nav-link\" href=\"{{ 'services'|page }}\">
-\t\t\t\t\t{{'Services'|_}}</a>
+\t\t\t\t<a class=\"nav-link\" href=\"{{ 'services-et-tarifs'|page }}\">{{'Services'|_}}</a>
 \t\t\t</li>
 \t\t\t<li class=\"nav-item\">
 \t\t\t\t<a class=\"nav-link\" href=\"{{ 'contact'|page }}\">

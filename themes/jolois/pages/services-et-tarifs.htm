@@ -1,0 +1,39 @@
+title = "Envoyer votre demande de service"
+url = "/services-et-tarifs"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/services"
+localeMeta_title[en] = ""
+localeMeta_description[en] = ""
+
+[contactForm DemandeServices]
+==
+<section id="top" class="hero-home banner-services py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                {{ 'Nos services informatique'|_ }}
+            </div>
+        </div>
+    </div>
+</section>
+<div class="py-5">
+    {% partial 'services/rates' %}
+</div>
+<section class="diagonal-box services-section py-5">
+    <div class="row d-flex justify-content-center py-5">
+        <div class="col-xs-12 col-sm-8 pt-5">
+            <h2 class="h2-responsive text-white text-center text-uppercase">{{ 'Soumettre une demande de service'|_ }}</h2>
+        </div>
+        <div class="col-xs-12 col-sm-5 pb-5">
+            {% component 'DemandeServices' %}
+        </div>
+    </div>
+</section>
+<section id="pourquoi">
+    <div class="container py-5">
+        {% partial 'reusable/pourquoi' %}
+    </div>
+</section>

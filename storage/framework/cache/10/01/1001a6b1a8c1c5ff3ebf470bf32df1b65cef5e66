@@ -1,4 +1,4 @@
-1588785951a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:956:"title = "Acceuil"
+1589227716a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:976:"title = "Acceuil"
 url = "/"
 layout = "default"
 is_hidden = 0
@@ -16,9 +16,9 @@ textColor = "#3db166"
     <div class="container py-5">
         <div class="banner-text">
             <div class="banner-heading text-uppercase">
-                Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!
+                {{ 'Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!'|_ }}
             </div>
-            <a class="btn btn-outline-light text-uppercase" href="{{ 'contact'|page }}">Contactez nous</a>
+            <a class="btn btn-outline-light text-uppercase" href="{{ 'contact'|page }}">{{ 'Contactez nous'|_ }}</a>
         </div>
     </div>
 </div>
@@ -32,13 +32,13 @@ textColor = "#3db166"
     <div class="container py-5">
         {% partial 'reusable/pourquoi' %}
     </div>
-</section>";s:5:"mtime";i:1588785138;s:6:"markup";s:706:"<div class="hero-home banner py-5">
+</section>";s:5:"mtime";i:1588861743;s:6:"markup";s:726:"<div class="hero-home banner py-5">
     <div class="container py-5">
         <div class="banner-text">
             <div class="banner-heading text-uppercase">
-                Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!
+                {{ 'Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!'|_ }}
             </div>
-            <a class="btn btn-outline-light text-uppercase" href="{{ 'contact'|page }}">Contactez nous</a>
+            <a class="btn btn-outline-light text-uppercase" href="{{ 'contact'|page }}">{{ 'Contactez nous'|_ }}</a>
         </div>
     </div>
 </div>

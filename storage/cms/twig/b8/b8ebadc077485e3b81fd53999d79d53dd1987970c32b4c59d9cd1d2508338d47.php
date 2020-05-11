@@ -62,7 +62,7 @@ class __TwigTemplate_f0b58b6cc56cb65409f2df8d2551d4261e49bc0d81384e4b9c05fda821b
         // line 14
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 14), "default_email", [], "any", false, false, false, 14), "html", null, true);
         echo "\" class=\"text-uppercase\" style=\"color:white!important;\">
-\t\t\t\t\t<i class=\"fas fa-envelope\"></i>
+\t\t\t\t\t<i class=\"fas fa-envelope\"></i>&nbsp;
 \t\t\t\t\t";
         // line 16
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 16), "default_email", [], "any", false, false, false, 16), "html", null, true);
@@ -129,7 +129,7 @@ class __TwigTemplate_f0b58b6cc56cb65409f2df8d2551d4261e49bc0d81384e4b9c05fda821b
 \t\t\t\t</span>
 \t\t\t\t<span class=\"pr-3 white-text align-top\">
 \t\t\t\t<a href=\"mailto:{{ this.theme.default_email }}\" class=\"text-uppercase\" style=\"color:white!important;\">
-\t\t\t\t\t<i class=\"fas fa-envelope\"></i>
+\t\t\t\t\t<i class=\"fas fa-envelope\"></i>&nbsp;
 \t\t\t\t\t{{ this.theme.default_email }}</a>
 \t\t\t\t</span>
 \t\t\t\t<span>

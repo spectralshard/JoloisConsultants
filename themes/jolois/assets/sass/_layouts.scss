@@ -111,18 +111,6 @@ a:hover {
 .diagonal-box {
   clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
 }
-.banner{
-  background-image:url("../images/header-home.jpg");
-  text-align: left;
-  color: #fff;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 .hero-home{
   margin-top:-60px;
   background-color: #EAECF0;

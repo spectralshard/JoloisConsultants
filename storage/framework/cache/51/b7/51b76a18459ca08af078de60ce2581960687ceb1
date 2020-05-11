@@ -1,4 +1,4 @@
-1588785952a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1860:"description = "Navigation bar"
+1589227824a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1864:"description = "Navigation bar"
 ==
 
 <nav id="navbar" class="navbar bg-white navbar-expand-lg">
@@ -30,8 +30,7 @@
 				</div>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="{{ 'services'|page }}">
-					{{'Services'|_}}</a>
+				<a class="nav-link" href="{{ 'services-et-tarifs'|page }}">{{'Services'|_}}</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="{{ 'contact'|page }}">
@@ -43,7 +42,7 @@
 	</ul>
 	</div>
 	</div>
-</nav>";s:5:"mtime";i:1588514851;s:6:"markup";s:1825:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
+</nav>";s:5:"mtime";i:1589225462;s:6:"markup";s:1829:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
 	<a class="navbar-brand" href="{{ 'home'|page }}">
 		<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
@@ -72,8 +71,7 @@
 				</div>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="{{ 'services'|page }}">
-					{{'Services'|_}}</a>
+				<a class="nav-link" href="{{ 'services-et-tarifs'|page }}">{{'Services'|_}}</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="{{ 'contact'|page }}">

@@ -19191,17 +19191,17 @@ a .page-link {
   filter: grayscale(100%);
 }
 
-.hero-home {
-  background: url("../images/tech24-hero-home.jpg") no-repeat center center;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
-}
-
-p img {
-  max-width: 100%;
-  height: auto;
+.banner {
+  background-image: url("../images/header-home.jpg");
+  text-align: left;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .testim .cont > div {
@@ -19212,65 +19212,6 @@ p img {
   max-width: 680px;
   margin: 60px auto;
   padding: 0 20px;
-}
-
-.youtube {
-  background-color: #000;
-  margin-bottom: 30px;
-  position: relative;
-  padding-top: 56.25%;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.youtube img {
-  width: 100%;
-  top: -16.82%;
-  left: 0;
-  opacity: 0.7;
-}
-
-.youtube .play-button {
-  width: 90px;
-  height: 60px;
-  background-color: #333;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-  z-index: 1;
-  opacity: 0.8;
-  border-radius: 6px;
-}
-
-.youtube .play-button:before {
-  content: "";
-  border-style: solid;
-  border-width: 15px 0 15px 26px;
-  border-color: transparent transparent transparent #fff;
-}
-
-.youtube img,
-.youtube .play-button {
-  cursor: pointer;
-}
-
-.youtube img,
-.youtube iframe,
-.youtube .play-button,
-.youtube .play-button:before {
-  position: absolute;
-}
-
-.youtube .play-button,
-.youtube .play-button:before {
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
-}
-
-.youtube iframe {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
 }
 
 .testim {
@@ -19302,6 +19243,73 @@ p img {
 .testim .dots .dot:hover {
   background: #015FAF;
   border-color: #015FAF;
+}
+
+.banner-services {
+  background-image: url("../images/header-services.jpg");
+  text-align: left;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.services-section {
+  background-color: #015FAF;
+  overflow: hidden;
+  min-height: 400px;
+  padding-top: 200px;
+}
+
+.bg-primary {
+  background-color: #015FAF !important;
+}
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+  color: #a94442;
+}
+
+.has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+
+.has-error .input-group-addon {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #a94442;
+}
+
+.has-error .form-control-feedback {
+  color: #a94442;
+}
+
+.has-feedback label ~ .form-control-feedback {
+  top: 25px;
+}
+
+.has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0;
 }
 
 /*
@@ -19417,19 +19425,6 @@ a:hover {
 
 .diagonal-box {
   clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
-}
-
-.banner {
-  background-image: url("../images/header-home.jpg");
-  text-align: left;
-  color: #fff;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .hero-home {
