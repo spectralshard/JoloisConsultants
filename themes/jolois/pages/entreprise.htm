@@ -3,6 +3,87 @@ url = "/entreprise"
 layout = "default"
 is_hidden = 0
 
-[Members team]
 ==
-{% component 'team' postsPerPage="1"%}
+<section id="jean-marie" class="py-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+                <h4 class="h4-responsive text-uppercase text-center">
+                    Jean-Marie
+                </h4>
+                <h2 class="h2-responsive text-primary text-center pb-3">
+                    {{ '23 ans d’expérience et une formation qui continue pour la vie… Vive les technologies!'|_ }}
+                </h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-center">
+                <img src="{{'assets/images/service-etudiants-1200x.jpg'|theme}}" class="img-fluid flex-auto rounded-circle pb-4" alt="">
+                <h5 class="h5-responsive text-primary">
+                    Jean-Marie Jolois B.Sc.
+                </h5>
+                <p><strong>
+                    {{ 'Consultant en informatique'|_ }}<br>
+                    {{ 'Expert en solutions Apple'|_ }}<br>
+                    {{ 'Partenaire ADOBE et DROBO'|_ }}<br>
+                    Tel. : (514) 360-0381</strong></p>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                {% content 'entreprise/JeanMarie' %}
+            </div>
+        </div>
+    </div>
+</section>
+<section id="elias" class="diagonal-box services-section py-5">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center text-white py-5">
+            <div class="col-12">
+                <h4 class="h4-responsive text-uppercase text-center">
+                    Elias
+                </h4>
+                <h2 class="h2-responsive text-center pb-3">
+                    {{ 'L’HOMME QUI A VU L’HOMME QUI A VU LE MAC ET LE PC'|_ }}
+                </h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-center">
+                <img src="{{'assets/images/service-etudiants-1200x.jpg'|theme}}" class="img-fluid flex-auto rounded-circle pb-4" alt="">
+                <h5 class="h5-responsive text-primary">
+                    Elias Abi Antoun
+                </h5>
+                <p><strong>
+                    {{ 'Consultant en informatique'|_ }}<br>
+                    {{ 'Certifié A+ et Cisco'|_ }}<br>
+                    {{ 'Partenaire SEAGATE'|_ }}<br>
+                    Tel. : (514) 360-0381</strong></p>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                {% content 'entreprise/elias' %}
+            </div>
+        </div>
+    </div>
+</section>
+<section id="alexis">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+                <h4 class="h4-responsive text-uppercase text-center">
+                    Jean-Marie
+                </h4>
+                <h2 class="h2-responsive text-primary text-center pb-3">
+                    {{ 'Le Pape du Mac'|_ }}
+                </h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-center">
+                <img src="{{'assets/images/service-etudiants-1200x.jpg'|theme}}" class="img-fluid flex-auto rounded-circle pb-4" alt="">
+                <h5 class="h5-responsive text-primary">
+                    Alexis Cornellier
+                </h5>
+                <p><strong>
+                    {{ 'Consultant en informatique'|_ }}<br>
+                    {{ 'Partenaire SEAGATE'|_ }}<br>
+                    Tel. : (514) 360-0381</strong></p>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                {% content 'entreprise/alexis' %}
+            </div>
+        </div>
+    </div>
+</section>
