@@ -1,4 +1,4 @@
-1589307976a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1864:"description = "Navigation bar"
+1589387332a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1885:"description = "Navigation bar"
 ==
 
 <nav id="navbar" class="navbar bg-white navbar-expand-lg">
@@ -23,9 +23,9 @@
 					{{'L\'entreprise'|_}}
 				</a>
 				<div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#">Jean-Marie</a>
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#">Elias</a>
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#">Alexis</a>
+					<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
+					<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
+					<a class="dropdown-item" href="{{ 'entreprise'|page }}#alexis">Alexis</a>
 					<a class="dropdown-item" href="{{ 'equipe'|page }}#">{{'L\'équipe'|_}}</a>
 				</div>
 			</li>
@@ -42,7 +42,7 @@
 	</ul>
 	</div>
 	</div>
-</nav>";s:5:"mtime";i:1589225462;s:6:"markup";s:1829:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
+</nav>";s:5:"mtime";i:1589386718;s:6:"markup";s:1850:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
 	<a class="navbar-brand" href="{{ 'home'|page }}">
 		<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
@@ -64,9 +64,9 @@
 					{{'L\'entreprise'|_}}
 				</a>
 				<div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#">Jean-Marie</a>
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#">Elias</a>
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#">Alexis</a>
+					<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
+					<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
+					<a class="dropdown-item" href="{{ 'entreprise'|page }}#alexis">Alexis</a>
 					<a class="dropdown-item" href="{{ 'equipe'|page }}#">{{'L\'équipe'|_}}</a>
 				</div>
 			</li>

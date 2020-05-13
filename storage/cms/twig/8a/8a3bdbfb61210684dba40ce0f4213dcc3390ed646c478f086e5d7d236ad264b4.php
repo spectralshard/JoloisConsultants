@@ -76,15 +76,15 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t\t\t<a class=\"dropdown-item\" href=\"";
         // line 23
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
-        echo "#\">Jean-Marie</a>
+        echo "#jean-marie\">Jean-Marie</a>
 \t\t\t\t\t<a class=\"dropdown-item\" href=\"";
         // line 24
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
-        echo "#\">Elias</a>
+        echo "#elias\">Elias</a>
 \t\t\t\t\t<a class=\"dropdown-item\" href=\"";
         // line 25
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
-        echo "#\">Alexis</a>
+        echo "#alexis\">Alexis</a>
 \t\t\t\t\t<a class=\"dropdown-item\" href=\"";
         // line 26
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("equipe");
@@ -164,9 +164,9 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t\t\t{{'L\\'entreprise'|_}}
 \t\t\t\t</a>
 \t\t\t\t<div class=\"dropdown-menu animate slideIn\" aria-labelledby=\"navbarDropdown\">
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#\">Jean-Marie</a>
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#\">Elias</a>
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#\">Alexis</a>
+\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#jean-marie\">Jean-Marie</a>
+\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#elias\">Elias</a>
+\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#alexis\">Alexis</a>
 \t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'equipe'|page }}#\">{{'L\\'équipe'|_}}</a>
 \t\t\t\t</div>
 \t\t\t</li>
