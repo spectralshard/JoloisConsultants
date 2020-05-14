@@ -12,6 +12,9 @@
                                     {% if member.photo %}
                                     <img class="card-img-top rounded-circle border border-primary mx-auto" src="{{ member.photo.path }}" alt=" "
                                          style="height: 200px; width: 200px; display: block;" data-holder-rendered="true">
+                                    {% else %}
+                                    <img class="card-img-top rounded-circle border border-primary mx-auto" src="{{'assets/images/team/profile-image.jpg'|theme}}" alt=" "
+                                         style="height: 200px; width: 200px; display: block;" data-holder-rendered="true">
                                     {% endif %}
                                 </div>
                                 <div class="card-body text-center">
