@@ -88,7 +88,7 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t\t\t<a class=\"dropdown-item\" href=\"";
         // line 26
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("equipe");
-        echo "#\">";
+        echo "\">";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["L'équipe"]);
         echo "</a>
 \t\t\t\t</div>
@@ -167,7 +167,7 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#jean-marie\">Jean-Marie</a>
 \t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#elias\">Elias</a>
 \t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#alexis\">Alexis</a>
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'equipe'|page }}#\">{{'L\\'équipe'|_}}</a>
+\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'equipe'|page }}\">{{'L\\'équipe'|_}}</a>
 \t\t\t\t</div>
 \t\t\t</li>
 \t\t\t<li class=\"nav-item\">

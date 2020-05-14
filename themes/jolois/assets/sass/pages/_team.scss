@@ -1,12 +1,46 @@
+.banner-team{
+  background-image:url("../images/team/header-team.jpg");
+  text-align: left;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fa-stack {
+  font-size: 1em;
+}
+i {
+  vertical-align: middle;
+}
+.card-team{
+  background-color: #F4F4F4;
+}
+.profile-card-5 .card-img-block {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -100px;
+}
+.profile-card-5 p{
+  font-size:14px;
+  font-weight:300;
+}
 .card-flip {
   position: relative;
   perspective: 1000px;
   -webkit-perspective: 1000;
-}
-.card-flip:hover .flip, .card-flip.hover .flip {
-  transform: rotateY(180deg);
+  &:hover .flip,
+  &.hover .flip {
+    transform: rotateY(180deg);
+  }
 }
 
+/*# Fix issue with webkit flip ;) */
 .card-flip,
 .front,
 .back {
@@ -45,5 +79,3 @@
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
 }
-
-/*# sourceMappingURL=team.css.map */

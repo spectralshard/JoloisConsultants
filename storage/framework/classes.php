@@ -68,4 +68,5 @@
   'JanVince\\SmallContactForm\\Models\\MessageExport' => 'plugins/janvince/smallcontactform/models/MessageExport.php',
   'JanVince\\SmallContactForm\\Models\\Message' => 'plugins/janvince/smallcontactform/models/Message.php',
   'RainLab\\Translate\\FormWidgets\\MLRepeater' => 'plugins/rainlab/translate/formwidgets/MLRepeater.php',
+  'RainLab\\Translate\\FormWidgets\\MLRichEditor' => 'plugins/rainlab/translate/formwidgets/MLRichEditor.php',
 );

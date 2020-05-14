@@ -1,66 +1,88 @@
-<div class="container">
+<div class="container pt-5">
     <div class="row">
         {% for member in members %}
             <div class="col-sm-6 col-lg-4">
                 <!-- Card Flip -->
                 <div class="card-flip">
                     <div class="flip">
-                        <div class="front">
+                        <div class="front pt-5">
                             <!-- front content -->
-                            <div class="card">
-                                <img class="card-img-top" src="{{ member.photo.path }}"
-                                     style="height: 300px; width: 100%; display: block;" data-holder-rendered="true">
-                                <div class="card-body">
-                                    <h4 class="card-title">
+                            <div class="card card-team profile-card-5 border-rad-5">
+                                <div class="card-img-block">
+                                    {% if member.photo %}
+                                    <img class="card-img-top rounded-circle border border-primary mx-auto" src="{{ member.photo.path }}" alt=" "
+                                         style="height: 200px; width: 200px; display: block;" data-holder-rendered="true">
+                                    {% endif %}
+                                </div>
+                                <div class="card-body text-center">
+                                    <h4 class="h4-responsive card-title text-primary">
                                         {{ member.first_name }}&nbsp;{{ member.last_name }}
                                     </h4>
-                                    <p class="card-text">{{ member.job_title }}</p>
-                                    <p class="card-text">
-                                        <i class="fa fa-phone"></i>&nbsp;
-                                        {{ member.phone }}<br>
-                                        <i class="fa fa-envelope-o"></i>&nbsp;
-                                        {{ member.email }}
+                                    <h6>{{ member.job_title }}</h6>
+                                    <p class="card-text pt-2">
+                                        {% if member.phone %}
+                                        <a href="tel:{{ member.phone }}"><span class="fa-stack fa-2x">
+                                          <i class="fas fa-circle fa-stack-2x"></i>
+                                          <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                                        </span></a>
+                                        {% endif %}
+                                        {% if member.email %}
+                                        <a href="mailto:{{ member.email }}"><span class="fa-stack fa-2x">
+                                          <i class="fas fa-circle fa-stack-2x"></i>
+                                          <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                                        </span></a>
+                                        {% endif %}
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="back">
+                        <div class="back pt-5">
                             <!-- back content -->
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">
+                            <div class="card card-team border-rad-5 primary-color">
+                                <div class="card-body text-center text-white">
+                                    <h4 class="h4-responsive card-title">
                                         {{ member.first_name }}&nbsp;{{ member.last_name }}
                                     </h4>
-                                    <h6 class="card-subtitle text-muted">
+                                    <h6>{{ member.job_title }}</h6>
+                                    <p class="card-text pt-2">
                                         {{ member.description|raw }}
-                                    </h6>
-                                </div>
-
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <i class="fa fa-phone"></i>&nbsp;
-                                        {{ member.phone }}<br>
-                                        <i class="fa fa-envelope-o"></i>&nbsp;
-                                        {{ member.email }}
                                     </p>
-                                    <p class="text-left">
-                                        <a href="{{ member.facebook_link }}" class="card-link">
-                                            <i class="fa fa-facebook-square fa-2x"></i>
-                                        </a>
+                                    <p class="card-text pt-2">
+                                        {% if member.phone %}
+                                        <a href="tel:{{ member.phone }}"><span class="fa-stack fa-2x">
+                                          <i class="fas fa-circle fa-stack-2x text-white"></i>
+                                          <i class="fas fa-phone fa-stack-1x fa-inverse text-primary"></i>
+                                        </span></a>
+                                        {% endif %}
+                                        {% if member.email %}
+                                        <a href="mailto:{{ member.email }}"><span class="fa-stack fa-2x">
+                                          <i class="fas fa-circle fa-stack-2x text-white"></i>
+                                          <i class="fas fa-envelope fa-stack-1x fa-inverse text-primary"></i>
+                                        </span></a>
+                                        {% endif %}
+                                        {% if member.facebook_link %}
+                                        <a href="{{ member.facebook_link }}" target="_blank"><span class="fa-stack fa-2x">
+                                          <i class="fas fa-circle fa-stack-2x text-white"></i>
+                                          <i class="fab fa-facebook-f fa-stack-1x fa-inverse text-primary"></i>
+                                        </span></a>
+                                        {% endif %}
                                         {% if member.twitter_link %}
-                                            <a href="{{ member.twitter_link }}" class="card-link">
-                                                <i class="fa fa-twitter-square fa-2x"></i>
-                                            </a>
+                                        <a href="{{ member.twitter_link }}" target="_blank"><span class="fa-stack fa-2x">
+                                          <i class="fas fa-circle fa-stack-2x text-white"></i>
+                                          <i class="fab fa-twitter fa-stack-1x fa-inverse text-primary"></i>
+                                        </span></a>
                                         {% endif %}
                                         {% if member.linkedin_link %}
-                                            <a href="{{ member.linkedin_link }}" class="card-link">
-                                                <i class="fa fa-linkedin-square fa-2x"></i>
-                                            </a>
+                                        <a href="{{ member.linkedin_link }}" target="_blank"><span class="fa-stack fa-2x">
+                                          <i class="fas fa-circle fa-stack-2x text-white"></i>
+                                          <i class="fab fa-linkedin fa-stack-1x fa-inverse text-primary"></i>
+                                        </span></a>
                                         {% endif %}
                                         {% if member.instagram_link %}
-                                            <a href="{{ member.instagram_link }}" class="card-link">
-                                                <i class="fa fa-instagram fa-2x"></i>
-                                            </a>
+                                        <a href="{{ member.instagram_link }}" target="_blank"><span class="fa-stack fa-2x">
+                                          <i class="fas fa-circle fa-stack-2x text-white"></i>
+                                          <i class="fab fa-instagram fa-stack-1x fa-inverse text-primary"></i>
+                                        </span></a>
                                         {% endif %}
                                     </p>
                                 </div>
@@ -73,4 +95,3 @@
         {% endfor %}
     </div>
 </div>
-

@@ -41,4 +41,9 @@ class Member extends Model
     {
         return $query->where('published', true);
     }
+    /**
+     * Extented for translation
+     */
+    public $implement = ['RainLab.Translate.Behaviors.TranslatableModel'];
+    public $translatable = ['job_title','description'];
 }

@@ -1,4 +1,4 @@
-1589387332a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1885:"description = "Navigation bar"
+1589478532a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1884:"description = "Navigation bar"
 ==
 
 <nav id="navbar" class="navbar bg-white navbar-expand-lg">
@@ -26,7 +26,7 @@
 					<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
 					<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
 					<a class="dropdown-item" href="{{ 'entreprise'|page }}#alexis">Alexis</a>
-					<a class="dropdown-item" href="{{ 'equipe'|page }}#">{{'L\'équipe'|_}}</a>
+					<a class="dropdown-item" href="{{ 'equipe'|page }}">{{'L\'équipe'|_}}</a>
 				</div>
 			</li>
 			<li class="nav-item">
@@ -42,7 +42,7 @@
 	</ul>
 	</div>
 	</div>
-</nav>";s:5:"mtime";i:1589386718;s:6:"markup";s:1850:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
+</nav>";s:5:"mtime";i:1589477931;s:6:"markup";s:1849:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
 	<a class="navbar-brand" href="{{ 'home'|page }}">
 		<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
@@ -67,7 +67,7 @@
 					<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
 					<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
 					<a class="dropdown-item" href="{{ 'entreprise'|page }}#alexis">Alexis</a>
-					<a class="dropdown-item" href="{{ 'equipe'|page }}#">{{'L\'équipe'|_}}</a>
+					<a class="dropdown-item" href="{{ 'equipe'|page }}">{{'L\'équipe'|_}}</a>
 				</div>
 			</li>
 			<li class="nav-item">
