@@ -36,91 +36,92 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
         // line 1
         echo "<nav id=\"navbar\" class=\"navbar bg-white navbar-expand-lg\">
 \t<div class=\"container\">
-\t<a class=\"navbar-brand\" href=\"";
+\t\t<a class=\"navbar-brand\" href=\"";
         // line 3
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
         echo "\">
-\t\t<img src=\"";
+\t\t\t<img src=\"";
         // line 4
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/jolois-consultants-logo.svg");
         echo "\" style=\"width:200px;\" alt=\"";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Jolois Consultants en informatique logo"]);
         echo "\">
-\t</a>
-\t<button class=\"navbar-toggler btn-secondary\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"
-\t\t\taria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-\t\t<span class=\"navbar-toggler-icon\"></span>
-\t</button>
-\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
-\t\t<ul class=\"navbar-nav ml-auto pb-0\">
-\t\t\t<li class=\"nav-item\">
-\t\t\t\t<a class=\"nav-link\" href=\"";
-        // line 13
+\t\t</a>
+\t\t<div class=\"hamburger hamburger--spring d-flexmr-auto d-md-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
+\t\t\t<div class=\"hamburger-box\">
+\t\t\t\t<div class=\"hamburger-inner\"></div>
+\t\t\t</div>
+\t\t</div>
+\t\t<div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">
+\t\t\t<ul class=\"navbar-nav ml-auto pb-0\">
+\t\t\t\t<li class=\"nav-item mx-auto\">
+\t\t\t\t\t<a class=\"nav-link\" href=\"";
+        // line 14
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
         echo "\">
-\t\t\t\t\t";
-        // line 14
+\t\t\t\t\t\t";
+        // line 15
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Acceuil"]);
         echo "
-\t\t\t\t</a>
-\t\t\t</li>
-\t\t\t<li class=\"nav-item dropdown\">
-\t\t\t\t<a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\"
-\t\t\t\t   data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-\t\t\t\t\t";
-        // line 20
+\t\t\t\t\t</a>
+\t\t\t\t</li>
+\t\t\t\t<li class=\"nav-item dropdown mx-auto\">
+\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\"
+\t\t\t\t\t   data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+\t\t\t\t\t\t";
+        // line 21
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["L'entreprise"]);
         echo "
-\t\t\t\t</a>
-\t\t\t\t<div class=\"dropdown-menu animate slideIn\" aria-labelledby=\"navbarDropdown\">
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
-        // line 23
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
-        echo "#jean-marie\">Jean-Marie</a>
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
+\t\t\t\t\t</a>
+\t\t\t\t\t<div class=\"dropdown-menu animate slideIn mx-auto\" aria-labelledby=\"navbarDropdown\">
+\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
         // line 24
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
-        echo "#elias\">Elias</a>
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
+        echo "#jean-marie\">Jean-Marie</a>
+\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
         // line 25
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
-        echo "#alexis\">Alexis</a>
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
+        echo "#elias\">Elias</a>
+\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
         // line 26
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
+        echo "#alexis\">Alexis</a>
+\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
+        // line 27
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("equipe");
         echo "\">";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["L'équipe"]);
         echo "</a>
-\t\t\t\t</div>
-\t\t\t</li>
-\t\t\t<li class=\"nav-item\">
-\t\t\t\t<a class=\"nav-link\" href=\"";
-        // line 30
+\t\t\t\t\t</div>
+\t\t\t\t</li>
+\t\t\t\t<li class=\"nav-item mx-auto\">
+\t\t\t\t\t<a class=\"nav-link\" href=\"";
+        // line 31
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("services-et-tarifs");
         echo "\">";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Services"]);
         echo "</a>
-\t\t\t</li>
-\t\t\t<li class=\"nav-item\">
-\t\t\t\t<a class=\"nav-link\" href=\"";
-        // line 33
+\t\t\t\t</li>
+\t\t\t\t<li class=\"nav-item mx-auto\">
+\t\t\t\t\t<a class=\"nav-link\" href=\"";
+        // line 34
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("contact");
         echo "\">
-\t\t\t\t\t";
-        // line 34
+\t\t\t\t\t\t";
+        // line 35
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Contact"]);
         echo "</a>
-\t\t\t</li>
-\t\t\t<li class=\"nav-item pl-3 d-none d-sm-block\">
-\t\t\t\t<a class=\"btn btn-primary\" href=\"mailto:";
-        // line 37
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 37), "support_email", [], "any", false, false, false, 37), "html", null, true);
+\t\t\t\t</li>
+\t\t\t\t<li class=\"nav-item pl-3 d-none d-sm-none d-md-none d-lg-block\">
+\t\t\t\t\t<a class=\"btn btn-primary\" href=\"mailto:";
+        // line 38
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 38), "support_email", [], "any", false, false, false, 38), "html", null, true);
         echo "\" target=\"_blank\">";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Demande de support"]);
         echo "</a>
-\t\t\t</li>
-\t</ul>
-\t</div>
+\t\t\t\t</li>
+\t\t\t</ul>
+\t\t</div>
 \t</div>
 </nav>";
     }
@@ -137,51 +138,52 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 
     public function getDebugInfo()
     {
-        return array (  117 => 37,  111 => 34,  107 => 33,  99 => 30,  90 => 26,  86 => 25,  82 => 24,  78 => 23,  72 => 20,  63 => 14,  59 => 13,  45 => 4,  41 => 3,  37 => 1,);
+        return array (  118 => 38,  112 => 35,  108 => 34,  100 => 31,  91 => 27,  87 => 26,  83 => 25,  79 => 24,  73 => 21,  64 => 15,  60 => 14,  45 => 4,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<nav id=\"navbar\" class=\"navbar bg-white navbar-expand-lg\">
 \t<div class=\"container\">
-\t<a class=\"navbar-brand\" href=\"{{ 'home'|page }}\">
-\t\t<img src=\"{{'assets/images/jolois-consultants-logo.svg'|theme}}\" style=\"width:200px;\" alt=\"{{ 'Jolois Consultants en informatique logo'|_ }}\">
-\t</a>
-\t<button class=\"navbar-toggler btn-secondary\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"
-\t\t\taria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-\t\t<span class=\"navbar-toggler-icon\"></span>
-\t</button>
-\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
-\t\t<ul class=\"navbar-nav ml-auto pb-0\">
-\t\t\t<li class=\"nav-item\">
-\t\t\t\t<a class=\"nav-link\" href=\"{{ 'home'|page }}\">
-\t\t\t\t\t{{'Acceuil'|_}}
-\t\t\t\t</a>
-\t\t\t</li>
-\t\t\t<li class=\"nav-item dropdown\">
-\t\t\t\t<a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\"
-\t\t\t\t   data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-\t\t\t\t\t{{'L\\'entreprise'|_}}
-\t\t\t\t</a>
-\t\t\t\t<div class=\"dropdown-menu animate slideIn\" aria-labelledby=\"navbarDropdown\">
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#jean-marie\">Jean-Marie</a>
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#elias\">Elias</a>
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#alexis\">Alexis</a>
-\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'equipe'|page }}\">{{'L\\'équipe'|_}}</a>
-\t\t\t\t</div>
-\t\t\t</li>
-\t\t\t<li class=\"nav-item\">
-\t\t\t\t<a class=\"nav-link\" href=\"{{ 'services-et-tarifs'|page }}\">{{'Services'|_}}</a>
-\t\t\t</li>
-\t\t\t<li class=\"nav-item\">
-\t\t\t\t<a class=\"nav-link\" href=\"{{ 'contact'|page }}\">
-\t\t\t\t\t{{'Contact'|_}}</a>
-\t\t\t</li>
-\t\t\t<li class=\"nav-item pl-3 d-none d-sm-block\">
-\t\t\t\t<a class=\"btn btn-primary\" href=\"mailto:{{ this.theme.support_email }}\" target=\"_blank\">{{'Demande de support'|_}}</a>
-\t\t\t</li>
-\t</ul>
-\t</div>
+\t\t<a class=\"navbar-brand\" href=\"{{ 'home'|page }}\">
+\t\t\t<img src=\"{{'assets/images/jolois-consultants-logo.svg'|theme}}\" style=\"width:200px;\" alt=\"{{ 'Jolois Consultants en informatique logo'|_ }}\">
+\t\t</a>
+\t\t<div class=\"hamburger hamburger--spring d-flexmr-auto d-md-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
+\t\t\t<div class=\"hamburger-box\">
+\t\t\t\t<div class=\"hamburger-inner\"></div>
+\t\t\t</div>
+\t\t</div>
+\t\t<div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">
+\t\t\t<ul class=\"navbar-nav ml-auto pb-0\">
+\t\t\t\t<li class=\"nav-item mx-auto\">
+\t\t\t\t\t<a class=\"nav-link\" href=\"{{ 'home'|page }}\">
+\t\t\t\t\t\t{{'Acceuil'|_}}
+\t\t\t\t\t</a>
+\t\t\t\t</li>
+\t\t\t\t<li class=\"nav-item dropdown mx-auto\">
+\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\"
+\t\t\t\t\t   data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+\t\t\t\t\t\t{{'L\\'entreprise'|_}}
+\t\t\t\t\t</a>
+\t\t\t\t\t<div class=\"dropdown-menu animate slideIn mx-auto\" aria-labelledby=\"navbarDropdown\">
+\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#jean-marie\">Jean-Marie</a>
+\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#elias\">Elias</a>
+\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#alexis\">Alexis</a>
+\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'equipe'|page }}\">{{'L\\'équipe'|_}}</a>
+\t\t\t\t\t</div>
+\t\t\t\t</li>
+\t\t\t\t<li class=\"nav-item mx-auto\">
+\t\t\t\t\t<a class=\"nav-link\" href=\"{{ 'services-et-tarifs'|page }}\">{{'Services'|_}}</a>
+\t\t\t\t</li>
+\t\t\t\t<li class=\"nav-item mx-auto\">
+\t\t\t\t\t<a class=\"nav-link\" href=\"{{ 'contact'|page }}\">
+\t\t\t\t\t\t{{'Contact'|_}}</a>
+\t\t\t\t</li>
+\t\t\t\t<li class=\"nav-item pl-3 d-none d-sm-none d-md-none d-lg-block\">
+\t\t\t\t\t<a class=\"btn btn-primary\" href=\"mailto:{{ this.theme.support_email }}\" target=\"_blank\">{{'Demande de support'|_}}</a>
+\t\t\t\t</li>
+\t\t\t</ul>
+\t\t</div>
 \t</div>
 </nav>", "/Users/alexandrefoisy/web sites/jolois/themes/jolois/partials/navbar.htm", "");
     }

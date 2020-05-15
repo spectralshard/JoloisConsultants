@@ -1,86 +1,88 @@
-1589478532a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1884:"description = "Navigation bar"
+1589567446a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1923:"description = "Navigation bar"
 ==
 
 <nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
-	<a class="navbar-brand" href="{{ 'home'|page }}">
-		<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
-	</a>
-	<button class="navbar-toggler btn-secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav ml-auto pb-0">
-			<li class="nav-item">
-				<a class="nav-link" href="{{ 'home'|page }}">
-					{{'Acceuil'|_}}
-				</a>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" role="button"
-				   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					{{'L\'entreprise'|_}}
-				</a>
-				<div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#alexis">Alexis</a>
-					<a class="dropdown-item" href="{{ 'equipe'|page }}">{{'L\'équipe'|_}}</a>
-				</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="{{ 'services-et-tarifs'|page }}">{{'Services'|_}}</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="{{ 'contact'|page }}">
-					{{'Contact'|_}}</a>
-			</li>
-			<li class="nav-item pl-3 d-none d-sm-block">
-				<a class="btn btn-primary" href="mailto:{{ this.theme.support_email }}" target="_blank">{{'Demande de support'|_}}</a>
-			</li>
-	</ul>
+		<a class="navbar-brand" href="{{ 'home'|page }}">
+			<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
+		</a>
+		<div class="hamburger hamburger--spring d-flexmr-auto d-md-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
+			<div class="hamburger-box">
+				<div class="hamburger-inner"></div>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav ml-auto pb-0">
+				<li class="nav-item mx-auto">
+					<a class="nav-link" href="{{ 'home'|page }}">
+						{{'Acceuil'|_}}
+					</a>
+				</li>
+				<li class="nav-item dropdown mx-auto">
+					<a class="nav-link dropdown-toggle" href="#" role="button"
+					   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						{{'L\'entreprise'|_}}
+					</a>
+					<div class="dropdown-menu animate slideIn mx-auto" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
+						<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
+						<a class="dropdown-item" href="{{ 'entreprise'|page }}#alexis">Alexis</a>
+						<a class="dropdown-item" href="{{ 'equipe'|page }}">{{'L\'équipe'|_}}</a>
+					</div>
+				</li>
+				<li class="nav-item mx-auto">
+					<a class="nav-link" href="{{ 'services-et-tarifs'|page }}">{{'Services'|_}}</a>
+				</li>
+				<li class="nav-item mx-auto">
+					<a class="nav-link" href="{{ 'contact'|page }}">
+						{{'Contact'|_}}</a>
+				</li>
+				<li class="nav-item pl-3 d-none d-sm-none d-md-none d-lg-block">
+					<a class="btn btn-primary" href="mailto:{{ this.theme.support_email }}" target="_blank">{{'Demande de support'|_}}</a>
+				</li>
+			</ul>
+		</div>
 	</div>
-	</div>
-</nav>";s:5:"mtime";i:1589477931;s:6:"markup";s:1849:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
+</nav>";s:5:"mtime";i:1589565533;s:6:"markup";s:1888:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
-	<a class="navbar-brand" href="{{ 'home'|page }}">
-		<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
-	</a>
-	<button class="navbar-toggler btn-secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav ml-auto pb-0">
-			<li class="nav-item">
-				<a class="nav-link" href="{{ 'home'|page }}">
-					{{'Acceuil'|_}}
-				</a>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" role="button"
-				   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					{{'L\'entreprise'|_}}
-				</a>
-				<div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
-					<a class="dropdown-item" href="{{ 'entreprise'|page }}#alexis">Alexis</a>
-					<a class="dropdown-item" href="{{ 'equipe'|page }}">{{'L\'équipe'|_}}</a>
-				</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="{{ 'services-et-tarifs'|page }}">{{'Services'|_}}</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="{{ 'contact'|page }}">
-					{{'Contact'|_}}</a>
-			</li>
-			<li class="nav-item pl-3 d-none d-sm-block">
-				<a class="btn btn-primary" href="mailto:{{ this.theme.support_email }}" target="_blank">{{'Demande de support'|_}}</a>
-			</li>
-	</ul>
-	</div>
+		<a class="navbar-brand" href="{{ 'home'|page }}">
+			<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
+		</a>
+		<div class="hamburger hamburger--spring d-flexmr-auto d-md-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
+			<div class="hamburger-box">
+				<div class="hamburger-inner"></div>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav ml-auto pb-0">
+				<li class="nav-item mx-auto">
+					<a class="nav-link" href="{{ 'home'|page }}">
+						{{'Acceuil'|_}}
+					</a>
+				</li>
+				<li class="nav-item dropdown mx-auto">
+					<a class="nav-link dropdown-toggle" href="#" role="button"
+					   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						{{'L\'entreprise'|_}}
+					</a>
+					<div class="dropdown-menu animate slideIn mx-auto" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
+						<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
+						<a class="dropdown-item" href="{{ 'entreprise'|page }}#alexis">Alexis</a>
+						<a class="dropdown-item" href="{{ 'equipe'|page }}">{{'L\'équipe'|_}}</a>
+					</div>
+				</li>
+				<li class="nav-item mx-auto">
+					<a class="nav-link" href="{{ 'services-et-tarifs'|page }}">{{'Services'|_}}</a>
+				</li>
+				<li class="nav-item mx-auto">
+					<a class="nav-link" href="{{ 'contact'|page }}">
+						{{'Contact'|_}}</a>
+				</li>
+				<li class="nav-item pl-3 d-none d-sm-none d-md-none d-lg-block">
+					<a class="btn btn-primary" href="mailto:{{ this.theme.support_email }}" target="_blank">{{'Demande de support'|_}}</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </nav>";s:4:"code";N;s:11:"description";s:14:"Navigation bar";}}
