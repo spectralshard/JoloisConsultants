@@ -132,7 +132,7 @@ a:hover {
     padding:150px 0 150px 0;
   }
   .banner-heading{
-    font-size: 30px;
+    font-size: 1.75rem;
     line-height: 30px;
     margin-bottom: 20px;
   }
@@ -141,6 +141,7 @@ a:hover {
 
 @media (max-width:768px){
   .banner-text{
+    font-size: 2rem;
     width:100%;
     padding:150px 0 150px 0;
   }

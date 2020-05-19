@@ -3,12 +3,17 @@
   text-align: left;
   color: #fff;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .banner-services {
+    background-attachment: scroll;
+  }
 }
 .services-section {
   background-color: $primary-color;

@@ -29,12 +29,12 @@ displayPhone = 1
 <section id="contact" class="py-5">
     <div class="container py-5">
         <div class="row d-flex justify-content-center">
-            <div class="col-xs-12 col-sm-5 pb-3">
+            <div class="col-xs-12 col-sm-6 col-lg-5 pb-3">
                 {% component 'ContactForm' %}
             </div>
-            <div class="col-xs-12 col-sm-1 d-none d-sm-block">
+            <div class="col-xs-12 col-sm-1 col-lg-1 d-none d-sm-none d-lg-block">
             </div>
-            <div class="col-xs-12 col-sm-4 border-primary border-left" style="height: 100%;">
+            <div class="col-xs-12 col-sm-6 col-lg-4 border-primary border-left d-none d-sm-block" style="height: 100%;">
                 <h3 class="h3-responsive text-primary mt-0">
                     {{ 'Adresse postale'|_ }}
                 </h3>
@@ -53,6 +53,32 @@ displayPhone = 1
                 <a href="mailto:{{ this.theme.default_email }}">
                     <i class="fas fa-envelope"></i>&nbsp;
                     {{ this.theme.default_email }}</a>
+                </p>
+                <p class="mb-0">
+                    <strong>{{ 'Besoin d’un technicien :'|_ }}</strong><br>
+                    <a href="mailto:{{ this.theme.support_email }}">
+                        {{ this.theme.support_email }}</a>
+                </p>
+            </div>
+            <div class="col border-primary border-top d-block d-sm-none mt-4 pt-3" style="height: 100%;">
+                <h3 class="h3-responsive text-primary mt-0">
+                    {{ 'Adresse postale'|_ }}
+                </h3>
+                <p>
+                    <em>* {{ 'sur rendez-vous seulement'|_ }}</em>
+                    <br/>
+                    38 place du commerce, bureau 11-134<br />
+                    Ile des Soeurs (Québec)  Canada H3E 1T8
+                </p>
+                <p>
+                    <a href="tel:{{ this.theme.default_phone }}">
+                        <i class="fas fa-phone"></i>&nbsp;
+                        {{ this.theme.default_phone }}</a>
+                </p>
+                <p>
+                    <a href="mailto:{{ this.theme.default_email }}">
+                        <i class="fas fa-envelope"></i>&nbsp;
+                        {{ this.theme.default_email }}</a>
                 </p>
                 <p class="mb-0">
                     <strong>{{ 'Besoin d’un technicien :'|_ }}</strong><br>

@@ -16692,6 +16692,10 @@ readers do not read off random characters that represent icons */
     font-family: sans-serif;
   }
 }
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 /*********************
 Colors
 **********************/
@@ -19171,10 +19175,6 @@ a .page-link {
   border: 1px solid #015FAF;
 }
 
-.text-uppercase {
-  text-transform: uppercase;
-}
-
 .btn-primary {
   background-color: #015FAF;
   border-color: #015FAF;
@@ -19196,7 +19196,7 @@ a .page-link {
   text-align: left;
   color: #fff;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -19204,6 +19204,11 @@ a .page-link {
   background-size: cover;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .banner {
+    background-attachment: scroll;
+  }
+}
 .testim .cont > div {
   padding: 0 0 0 0 !important;
 }
@@ -19250,7 +19255,7 @@ a .page-link {
   text-align: left;
   color: #fff;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -19258,6 +19263,11 @@ a .page-link {
   background-size: cover;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .banner-services {
+    background-attachment: scroll;
+  }
+}
 .services-section {
   background-color: #015FAF;
   overflow: hidden;
@@ -19317,7 +19327,7 @@ a .page-link {
   text-align: left;
   color: #fff;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -19325,6 +19335,11 @@ a .page-link {
   background-size: cover;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .banner-team {
+    background-attachment: scroll;
+  }
+}
 .fa-stack {
   font-size: 1em;
 }
@@ -19539,13 +19554,14 @@ a:hover {
   }
 
   .banner-heading {
-    font-size: 30px;
+    font-size: 1.75rem;
     line-height: 30px;
     margin-bottom: 20px;
   }
 }
 @media (max-width: 768px) {
   .banner-text {
+    font-size: 2rem;
     width: 100%;
     padding: 150px 0 150px 0;
   }
@@ -20788,6 +20804,7 @@ SideNav
 .nav-link {
   padding-top: 0.8rem;
   font-size: 1rem !important;
+  letter-spacing: 1px;
 }
 
 .dropdown-toggle::after {
@@ -20817,6 +20834,7 @@ SideNav
   border-color: #fff;
   border-width: 8px 0px;
   box-shadow: 5px 5px 20px #1A1F2C;
+  letter-spacing: 1px;
 }
 
 /* mobile view */

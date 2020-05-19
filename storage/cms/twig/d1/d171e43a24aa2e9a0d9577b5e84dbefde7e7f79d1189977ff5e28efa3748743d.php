@@ -34,7 +34,7 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
     {
         $macros = $this->macros;
         // line 1
-        echo "<div class=\"hero-home banner py-5\">
+        echo "<div class=\"banner hero-home py-5\">
     <div class=\"container py-5\">
         <div class=\"banner-text\">
             <div class=\"banner-heading text-uppercase\">
@@ -97,7 +97,7 @@ class __TwigTemplate_9916397459729e5ec9f3c88d6305b5a3018bfa4aeeb0699aca03a01bbc2
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"hero-home banner py-5\">
+        return new Source("<div class=\"banner hero-home py-5\">
     <div class=\"container py-5\">
         <div class=\"banner-text\">
             <div class=\"banner-heading text-uppercase\">

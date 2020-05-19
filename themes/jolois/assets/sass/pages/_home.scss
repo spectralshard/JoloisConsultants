@@ -3,12 +3,17 @@
   text-align: left;
   color: #fff;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .banner {
+    background-attachment: scroll;
+  }
 }
 .testim .cont > div {
   padding: 0 0 0 0!important;

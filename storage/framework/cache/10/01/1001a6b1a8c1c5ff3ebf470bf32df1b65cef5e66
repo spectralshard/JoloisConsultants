@@ -1,4 +1,4 @@
-1589567446a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:976:"title = "Acceuil"
+1589910991a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:976:"title = "Acceuil"
 url = "/"
 layout = "default"
 is_hidden = 0
@@ -12,7 +12,7 @@ localeMeta_description[en] = ""
 backgroundColor = "#1b2945"
 textColor = "#3db166"
 ==
-<div class="hero-home banner py-5">
+<div class="banner hero-home py-5">
     <div class="container py-5">
         <div class="banner-text">
             <div class="banner-heading text-uppercase">
@@ -32,7 +32,7 @@ textColor = "#3db166"
     <div class="container py-5">
         {% partial 'reusable/pourquoi' %}
     </div>
-</section>";s:5:"mtime";i:1588861743;s:6:"markup";s:726:"<div class="hero-home banner py-5">
+</section>";s:5:"mtime";i:1589909107;s:6:"markup";s:726:"<div class="banner hero-home py-5">
     <div class="container py-5">
         <div class="banner-text">
             <div class="banner-heading text-uppercase">
