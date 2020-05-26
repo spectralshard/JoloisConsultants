@@ -1,4 +1,4 @@
-1589910991a:1:{s:11:"default.htm";a:8:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3208:"description = "Default Layout"
+1590170966a:1:{s:11:"default.htm";a:8:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3348:"description = "Default Layout"
 
 [localePicker]
 forceUrl = 0
@@ -24,13 +24,13 @@ $this['site_url'] = asset('');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ this.page.meta_title }} | Jolois</title>
+    <title>{{ this.page.meta_title }} | Jolois Consultants en Informatique</title>
     <meta name="description" content="{{ this.page.meta_description }}">
-    <meta name="title" content="{{ this.page.meta_title }} | Jolois">
+    <meta name="title" content="{{ this.page.meta_title }} | Jolois Consultants en Informatique">
     <meta name="author" content="Techno24.net">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="{{ ''|page }}"/>
-    <meta property="og:title" content="{{ this.page.meta_title }} | Jolois" />
+    <meta property="og:title" content="{{ this.page.meta_title }} | Jolois Consultants en Informatique" />
     <meta property="og:url" content="{{ ''|page }}" />
     {% if image_url %}
     <meta property="og:image:secure_url" content="{{ image_url }}" />
@@ -46,8 +46,8 @@ $this['site_url'] = asset('');
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ this.page.settings.meta_description }}" />
     <meta property="og:locale" content="fr_CA">
-    <meta property="og:site_name" content="Jolois" />
-    <meta name="twitter:title" content="{{ this.page.meta_title }} | Jolois">
+    <meta property="og:site_name" content="Jolois Consultants en Informatique" />
+    <meta name="twitter:title" content="{{ this.page.meta_title }} | Jolois Consultants en Informatique">
     <meta name="twitter:description" content="{{ this.page.settings.meta_description }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -87,18 +87,18 @@ $this['site_url'] = asset('');
 {% framework extras %}
 {% scripts %}
 </body>
-</html>";s:5:"mtime";i:1588525463;s:6:"markup";s:2839:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1590167997;s:6:"markup";s:2979:"<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ this.page.meta_title }} | Jolois</title>
+    <title>{{ this.page.meta_title }} | Jolois Consultants en Informatique</title>
     <meta name="description" content="{{ this.page.meta_description }}">
-    <meta name="title" content="{{ this.page.meta_title }} | Jolois">
+    <meta name="title" content="{{ this.page.meta_title }} | Jolois Consultants en Informatique">
     <meta name="author" content="Techno24.net">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="{{ ''|page }}"/>
-    <meta property="og:title" content="{{ this.page.meta_title }} | Jolois" />
+    <meta property="og:title" content="{{ this.page.meta_title }} | Jolois Consultants en Informatique" />
     <meta property="og:url" content="{{ ''|page }}" />
     {% if image_url %}
     <meta property="og:image:secure_url" content="{{ image_url }}" />
@@ -114,8 +114,8 @@ $this['site_url'] = asset('');
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ this.page.settings.meta_description }}" />
     <meta property="og:locale" content="fr_CA">
-    <meta property="og:site_name" content="Jolois" />
-    <meta name="twitter:title" content="{{ this.page.meta_title }} | Jolois">
+    <meta property="og:site_name" content="Jolois Consultants en Informatique" />
+    <meta name="twitter:title" content="{{ this.page.meta_title }} | Jolois Consultants en Informatique">
     <meta name="twitter:description" content="{{ this.page.settings.meta_description }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta http-equiv="x-ua-compatible" content="ie=edge">

@@ -42,7 +42,7 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
     <title>";
         // line 6
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 6), "meta_title", [], "any", false, false, false, 6), "html", null, true);
-        echo " | Jolois</title>
+        echo " | Jolois Consultants en Informatique</title>
     <meta name=\"description\" content=\"";
         // line 7
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 7), "meta_description", [], "any", false, false, false, 7), "html", null, true);
@@ -50,7 +50,7 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
     <meta name=\"title\" content=\"";
         // line 8
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 8), "meta_title", [], "any", false, false, false, 8), "html", null, true);
-        echo " | Jolois\">
+        echo " | Jolois Consultants en Informatique\">
     <meta name=\"author\" content=\"Techno24.net\">
     <meta name=\"robots\" content=\"index,follow\">
     <link rel=\"canonical\" href=\"";
@@ -60,7 +60,7 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
     <meta property=\"og:title\" content=\"";
         // line 12
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 12), "meta_title", [], "any", false, false, false, 12), "html", null, true);
-        echo " | Jolois\" />
+        echo " | Jolois Consultants en Informatique\" />
     <meta property=\"og:url\" content=\"";
         // line 13
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("");
@@ -105,11 +105,11 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 26), "settings", [], "any", false, false, false, 26), "meta_description", [], "any", false, false, false, 26), "html", null, true);
         echo "\" />
     <meta property=\"og:locale\" content=\"fr_CA\">
-    <meta property=\"og:site_name\" content=\"Jolois\" />
+    <meta property=\"og:site_name\" content=\"Jolois Consultants en Informatique\" />
     <meta name=\"twitter:title\" content=\"";
         // line 29
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 29), "meta_title", [], "any", false, false, false, 29), "html", null, true);
-        echo " | Jolois\">
+        echo " | Jolois Consultants en Informatique\">
     <meta name=\"twitter:description\" content=\"";
         // line 30
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 30), "settings", [], "any", false, false, false, 30), "meta_description", [], "any", false, false, false, 30), "html", null, true);
@@ -237,13 +237,13 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
 <head>
     <meta charset=\"utf-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
-    <title>{{ this.page.meta_title }} | Jolois</title>
+    <title>{{ this.page.meta_title }} | Jolois Consultants en Informatique</title>
     <meta name=\"description\" content=\"{{ this.page.meta_description }}\">
-    <meta name=\"title\" content=\"{{ this.page.meta_title }} | Jolois\">
+    <meta name=\"title\" content=\"{{ this.page.meta_title }} | Jolois Consultants en Informatique\">
     <meta name=\"author\" content=\"Techno24.net\">
     <meta name=\"robots\" content=\"index,follow\">
     <link rel=\"canonical\" href=\"{{ ''|page }}\"/>
-    <meta property=\"og:title\" content=\"{{ this.page.meta_title }} | Jolois\" />
+    <meta property=\"og:title\" content=\"{{ this.page.meta_title }} | Jolois Consultants en Informatique\" />
     <meta property=\"og:url\" content=\"{{ ''|page }}\" />
     {% if image_url %}
     <meta property=\"og:image:secure_url\" content=\"{{ image_url }}\" />
@@ -259,8 +259,8 @@ class __TwigTemplate_819745bf2e8e50dfcba5f688151466967a2d1aac00f3111193c58659411
     <meta property=\"og:type\" content=\"website\" />
     <meta property=\"og:description\" content=\"{{ this.page.settings.meta_description }}\" />
     <meta property=\"og:locale\" content=\"fr_CA\">
-    <meta property=\"og:site_name\" content=\"Jolois\" />
-    <meta name=\"twitter:title\" content=\"{{ this.page.meta_title }} | Jolois\">
+    <meta property=\"og:site_name\" content=\"Jolois Consultants en Informatique\" />
+    <meta name=\"twitter:title\" content=\"{{ this.page.meta_title }} | Jolois Consultants en Informatique\">
     <meta name=\"twitter:description\" content=\"{{ this.page.settings.meta_description }}\">
     <meta name=\"twitter:card\" content=\"summary_large_image\">
     <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">

@@ -1,12 +1,12 @@
-1589910991a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1923:"description = "Navigation bar"
+1590170966a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1930:"description = "Navigation bar"
 ==
 
 <nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
 		<a class="navbar-brand" href="{{ 'home'|page }}">
-			<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
+			<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Logo de Jolois Consultants en informatique'|_ }}">
 		</a>
-		<div class="hamburger hamburger--spring d-flexmr-auto d-md-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
+		<div class="hamburger hamburger--spring d-flex d-md-block d-lg-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
 			<div class="hamburger-box">
 				<div class="hamburger-inner"></div>
 			</div>
@@ -43,12 +43,12 @@
 			</ul>
 		</div>
 	</div>
-</nav>";s:5:"mtime";i:1589565533;s:6:"markup";s:1888:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
+</nav>";s:5:"mtime";i:1590079499;s:6:"markup";s:1895:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
 		<a class="navbar-brand" href="{{ 'home'|page }}">
-			<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
+			<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Logo de Jolois Consultants en informatique'|_ }}">
 		</a>
-		<div class="hamburger hamburger--spring d-flexmr-auto d-md-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
+		<div class="hamburger hamburger--spring d-flex d-md-block d-lg-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
 			<div class="hamburger-box">
 				<div class="hamburger-inner"></div>
 			</div>

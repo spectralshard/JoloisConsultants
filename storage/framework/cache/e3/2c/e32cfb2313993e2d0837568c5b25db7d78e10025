@@ -1,4 +1,4 @@
-1589910991a:1:{s:7:"404.htm";a:12:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1398:"title = "404"
+1590170966a:1:{s:7:"404.htm";a:12:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1278:"title = "404"
 url = "/404"
 layout = "default"
 meta_title = "404"
@@ -11,17 +11,15 @@ localeUrl[en] = "/404"
 localeMeta_title[en] = "404"
 localeMeta_description[en] = ""
 ==
-<div class="jumbotron hero-home">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-lg-6 my-2 my-sm-5">
-                <h1 class="h1-responsive white-text my-0 my-sm-4 my-lg-5" style="text-shadow: 2px 2px #333333;">
-                    <strong>{{ 'Oops! La page demandé est introuvable!'|_ }}</strong>
-                </h1>
+<section id="top" class="hero-home banner-services py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+             {{ 'Oops! La page demandé est introuvable!'|_ }}
             </div>
         </div>
     </div>
-</div>
+</section>
 <section class="intro my-4">
     <div class="container">
         <div class="row">
@@ -44,17 +42,15 @@ localeMeta_description[en] = ""
             </div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1573596935;s:6:"markup";s:1175:"<div class="jumbotron hero-home">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-lg-6 my-2 my-sm-5">
-                <h1 class="h1-responsive white-text my-0 my-sm-4 my-lg-5" style="text-shadow: 2px 2px #333333;">
-                    <strong>{{ 'Oops! La page demandé est introuvable!'|_ }}</strong>
-                </h1>
+</section>";s:5:"mtime";i:1590077508;s:6:"markup";s:1055:"<section id="top" class="hero-home banner-services py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+             {{ 'Oops! La page demandé est introuvable!'|_ }}
             </div>
         </div>
     </div>
-</div>
+</section>
 <section class="intro my-4">
     <div class="container">
         <div class="row">

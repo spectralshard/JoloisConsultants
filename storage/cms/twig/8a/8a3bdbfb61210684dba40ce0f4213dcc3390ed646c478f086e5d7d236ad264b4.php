@@ -44,10 +44,10 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
         // line 4
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/jolois-consultants-logo.svg");
         echo "\" style=\"width:200px;\" alt=\"";
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Jolois Consultants en informatique logo"]);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Logo de Jolois Consultants en informatique"]);
         echo "\">
 \t\t</a>
-\t\t<div class=\"hamburger hamburger--spring d-flexmr-auto d-md-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
+\t\t<div class=\"hamburger hamburger--spring d-flex d-md-block d-lg-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
 \t\t\t<div class=\"hamburger-box\">
 \t\t\t\t<div class=\"hamburger-inner\"></div>
 \t\t\t</div>
@@ -146,9 +146,9 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
         return new Source("<nav id=\"navbar\" class=\"navbar bg-white navbar-expand-lg\">
 \t<div class=\"container\">
 \t\t<a class=\"navbar-brand\" href=\"{{ 'home'|page }}\">
-\t\t\t<img src=\"{{'assets/images/jolois-consultants-logo.svg'|theme}}\" style=\"width:200px;\" alt=\"{{ 'Jolois Consultants en informatique logo'|_ }}\">
+\t\t\t<img src=\"{{'assets/images/jolois-consultants-logo.svg'|theme}}\" style=\"width:200px;\" alt=\"{{ 'Logo de Jolois Consultants en informatique'|_ }}\">
 \t\t</a>
-\t\t<div class=\"hamburger hamburger--spring d-flexmr-auto d-md-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
+\t\t<div class=\"hamburger hamburger--spring d-flex d-md-block d-lg-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
 \t\t\t<div class=\"hamburger-box\">
 \t\t\t\t<div class=\"hamburger-inner\"></div>
 \t\t\t</div>
