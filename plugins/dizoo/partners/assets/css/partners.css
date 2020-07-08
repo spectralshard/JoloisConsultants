@@ -54,7 +54,7 @@
 
 .slick-track {
     display: flex;
-    align-items: center;
+    align-items: center!important;
     position: relative;
     top: 0;
     left: 0;

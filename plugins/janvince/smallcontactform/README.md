@@ -25,7 +25,7 @@ You can set permissions to restrict access to *Settings > Small plugins > Contac
 ### Installation with composer
 
 * Edit composer.json by adding new repository
-```json
+```
 "repositories": [
     {
       "type": "vcs",
@@ -106,7 +106,16 @@ If you want to insert assets by hand, you can do it this way (or similar):
 ### SEND BUTTON
 
 * You can set button class and text.
-* Form can automatically redirect to given URL after successful submit.
+
+#### Redirection after the form is sent
+
+You have some options to control redirection after form is successfully sent:
+
+* In main form settings you can allow redirection and set fixed URL (internal or external)
+* In component properties (on CMS Page or Layout) you can override main redirection settings for a specific form
+* You can add a dynamic redirect URL as a markup parameter eg. `{% component 'contactForm' redirectUrl = ('/success#'~this.page.id) %}`
+
+> If you use markup parameter do not forget to allow form redirection in form main settings or (rather) in component parameters ! There is no markup parametr to allow redirection.
 
 
 ### FIELDS
@@ -238,6 +247,19 @@ Remember your email templates CODE and put in in Small Contact form email settin
 There is ````{{fields}}```` array available inside of email templates.
 
 *If your custom form field has name eg. 'email', you use it in template with ````{{fields.email}}````.*
+
+## GOOGLE ANALYTICS
+
+> if you want to use these settings, be sure to have Google Analytics scripts included on your site. You can use [Rainlab Google Analytics plugin](https://octobercms.com/plugin/rainlab-googleanalytics).
+
+### Events
+
+You can allow events to be send to your GA account when the form is successfully sent.
+
+There are (translatable) fields for category, action and label.
+
+*All event settings can be overriden in component property so if you use more then one form, you can custommize events for each of them.*
+
 
 ## MESSAGES LIST
 
