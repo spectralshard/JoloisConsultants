@@ -1,0 +1,51 @@
+1595345115a:1:{s:20:"partners/default.htm";a:5:{s:8:"fileName";s:20:"partners/default.htm";s:7:"content";s:918:"<h2 class="h2-responsive text-center text-primary text-uppercase">
+    {{ 'Nos partenaires'|_ }}
+</h2>
+{% if partners %}
+<div class="partner-slider slider pt-3">
+    {% for partner in partners %}
+        {% if partner.url %}
+            {% if 'https' in partner.url %}
+                {% set url = partner.url %}
+            {% elseif 'http' in partner.url %}
+                {% set url = partner.url|replace({'http://': '', 'https://': ''}) %}
+            {% else %}
+                {% set url = 'https://' ~ partner.url %}
+            {% endif %}
+        {% endif %}
+        <div class="slide">
+            {% if partner.url %}
+            <a href="{{ url }}" target="_blank">{% endif %}
+            <img src="{{ partner.image.thumb(170,crop) }}" alt="{{ partner.name }}" class="gray-scale">
+            {% if partner.url %}
+            </a>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+{% endif %}";s:5:"mtime";i:1590505967;s:6:"markup";s:918:"<h2 class="h2-responsive text-center text-primary text-uppercase">
+    {{ 'Nos partenaires'|_ }}
+</h2>
+{% if partners %}
+<div class="partner-slider slider pt-3">
+    {% for partner in partners %}
+        {% if partner.url %}
+            {% if 'https' in partner.url %}
+                {% set url = partner.url %}
+            {% elseif 'http' in partner.url %}
+                {% set url = partner.url|replace({'http://': '', 'https://': ''}) %}
+            {% else %}
+                {% set url = 'https://' ~ partner.url %}
+            {% endif %}
+        {% endif %}
+        <div class="slide">
+            {% if partner.url %}
+            <a href="{{ url }}" target="_blank">{% endif %}
+            <img src="{{ partner.image.thumb(170,crop) }}" alt="{{ partner.name }}" class="gray-scale">
+            {% if partner.url %}
+            </a>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+{% endif %}";s:4:"code";N;}}

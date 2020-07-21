@@ -1,0 +1,18 @@
+1595345127a:1:{s:31:"demandeservices/scf-message.htm";a:5:{s:8:"fileName";s:31:"demandeservices/scf-message.htm";s:7:"content";s:199:"{% flash%}
+
+  {% if flashSuccess==__SELF__ %}
+  	<div class="alert alert-{{ type == 'error' ? 'danger' : type }}">
+  		{{ html_entity_decode(message)|nl2br }}
+  	</div>
+  {% endif %}
+
+{% endflash %}
+";s:5:"mtime";i:1587604977;s:6:"markup";s:198:"{% flash%}
+
+  {% if flashSuccess==__SELF__ %}
+  	<div class="alert alert-{{ type == 'error' ? 'danger' : type }}">
+  		{{ html_entity_decode(message)|nl2br }}
+  	</div>
+  {% endif %}
+
+{% endflash %}";s:4:"code";N;}}

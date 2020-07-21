@@ -1,0 +1,119 @@
+1595345115a:1:{s:21:"reusable/pourquoi.htm";a:5:{s:8:"fileName";s:21:"reusable/pourquoi.htm";s:7:"content";s:2975:"<div class="row pb-5">
+    <div class="col-12">
+        <h2 class="h2-responsive text-uppercase text-primary text-center">
+            {{ 'Pourquoi nous choisir?'|_ }}
+        </h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-4 pb-3">
+        <div class="row flex justify-content-center">
+            <div class="col-xs-12 col-sm-10 text-center">
+                <img src="{{'assets/images/computer.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Réparation de MAC et PC'|_ }}">
+                <h3 class="h3-responsive text-uppercase text-primary mt-4">
+                    {{ 'Réparation de MAC et PC'|_ }}
+                </h3>
+                <p>{{ 'Notre équipe est spécialisée dans la réparation et la configuration de poste de travail MAC et PC.'|_ }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 pb-3">
+        <div class="row flex justify-content-center">
+            <div class="col-xs-12 col-sm-10 text-center">
+                <img src="{{'assets/images/qualite.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Services de qualité'|_ }}">
+                <h3 class="h3-responsive text-uppercase text-primary mt-4">
+                    {{ ' Services de qualité'|_ }}
+                </h3>
+                <p>{{ 'Notre équipe se fera un plaisir de vous répondre de façon personnalisée, rapide et efficace à vos besoins réels en informatique!'|_ }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 pb-3">
+        <div class="row flex justify-content-center">
+            <div class="col-xs-12 col-sm-10 text-center">
+                <img src="{{'assets/images/apple.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Certifier par Apple'|_ }}">
+                <h3 class="h3-responsive text-uppercase text-primary mt-4">
+                    {{ 'Certifier par Apple'|_ }}
+                </h3>
+                <p>{{ 'Nos techniciens sont certifiés pour toujours être au summum des exigences d’Apple'|_ }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row flex justify-content-center">
+    <div class="col-xs-12 col-sm-10">
+        <div class="card primary-color my-5 border-rad-5">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 py-2">
+                        <img src="{{'assets/images/recuperation.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Recyclage de votre ancien Mac ou PC'|_ }}">
+                    </div>
+                    <div class="col-xs-12 col-sm-9">
+                        <h5 class="h5-responsive text-white py-3 mt-2">
+                            {{ 'Nous offrons le recyclage de votre ancien Mac ou PC à l\'achat d\'un nouvel ordinateur!'|_ }}
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1593115432;s:6:"markup";s:2975:"<div class="row pb-5">
+    <div class="col-12">
+        <h2 class="h2-responsive text-uppercase text-primary text-center">
+            {{ 'Pourquoi nous choisir?'|_ }}
+        </h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-4 pb-3">
+        <div class="row flex justify-content-center">
+            <div class="col-xs-12 col-sm-10 text-center">
+                <img src="{{'assets/images/computer.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Réparation de MAC et PC'|_ }}">
+                <h3 class="h3-responsive text-uppercase text-primary mt-4">
+                    {{ 'Réparation de MAC et PC'|_ }}
+                </h3>
+                <p>{{ 'Notre équipe est spécialisée dans la réparation et la configuration de poste de travail MAC et PC.'|_ }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 pb-3">
+        <div class="row flex justify-content-center">
+            <div class="col-xs-12 col-sm-10 text-center">
+                <img src="{{'assets/images/qualite.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Services de qualité'|_ }}">
+                <h3 class="h3-responsive text-uppercase text-primary mt-4">
+                    {{ ' Services de qualité'|_ }}
+                </h3>
+                <p>{{ 'Notre équipe se fera un plaisir de vous répondre de façon personnalisée, rapide et efficace à vos besoins réels en informatique!'|_ }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 pb-3">
+        <div class="row flex justify-content-center">
+            <div class="col-xs-12 col-sm-10 text-center">
+                <img src="{{'assets/images/apple.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Certifier par Apple'|_ }}">
+                <h3 class="h3-responsive text-uppercase text-primary mt-4">
+                    {{ 'Certifier par Apple'|_ }}
+                </h3>
+                <p>{{ 'Nos techniciens sont certifiés pour toujours être au summum des exigences d’Apple'|_ }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row flex justify-content-center">
+    <div class="col-xs-12 col-sm-10">
+        <div class="card primary-color my-5 border-rad-5">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 py-2">
+                        <img src="{{'assets/images/recuperation.svg'|theme}}" class="img-responsive mx-auto d-block" alt="{{ 'Recyclage de votre ancien Mac ou PC'|_ }}">
+                    </div>
+                    <div class="col-xs-12 col-sm-9">
+                        <h5 class="h5-responsive text-white py-3 mt-2">
+                            {{ 'Nous offrons le recyclage de votre ancien Mac ou PC à l\'achat d\'un nouvel ordinateur!'|_ }}
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

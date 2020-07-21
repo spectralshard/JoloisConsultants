@@ -1,0 +1,68 @@
+1595345114a:1:{s:22:"services-et-tarifs.htm";a:14:{s:8:"fileName";s:22:"services-et-tarifs.htm";s:7:"content";s:1828:"title = "Envoyer votre demande de service"
+url = "/services"
+layout = "default"
+description = "Nous offrons nos services consultation et de support à domicile ou de nos ateliers. Nos services sont destinés aussi bien au particuliers qu’aux entreprises à des prix très abordables!"
+meta_title = "Envoyer votre demande de service"
+meta_description = "Nous offrons nos services consultation et de support à domicile ou de nos ateliers. Nos services sont destinés aussi bien au particuliers qu’aux entreprises à des prix très abordables!"
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/our-services"
+localeMeta_title[en] = "Submit your service request"
+localeMeta_description[en] = "We offer our consultation and support services at home or in our workshops. Our services are intended for both individuals and businesses at very affordable prices!"
+
+[contactForm DemandeServices]
+==
+<section id="top" class="hero-home banner-services py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                {{ 'Nos services informatique'|_ }}
+            </div>
+        </div>
+    </div>
+</section>
+<div class="py-5">
+    {% partial 'services/rates' %}
+</div>
+<section class="diagonal-box services-section py-5">
+    <div class="row d-flex justify-content-center py-5">
+        <div class="col-xs-12 col-sm-8 pt-5">
+            <h2 class="h2-responsive text-white text-center text-uppercase">{{ 'Soumettre une demande de service'|_ }}</h2>
+        </div>
+        <div class="col-10 col-sm-8 col-md-5 pb-5">
+            {% component 'DemandeServices' %}
+        </div>
+    </div>
+</section>
+<section id="pourquoi">
+    <div class="container py-5">
+        {% partial 'reusable/pourquoi' %}
+    </div>
+</section>";s:5:"mtime";i:1590077433;s:6:"markup";s:926:"<section id="top" class="hero-home banner-services py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                {{ 'Nos services informatique'|_ }}
+            </div>
+        </div>
+    </div>
+</section>
+<div class="py-5">
+    {% partial 'services/rates' %}
+</div>
+<section class="diagonal-box services-section py-5">
+    <div class="row d-flex justify-content-center py-5">
+        <div class="col-xs-12 col-sm-8 pt-5">
+            <h2 class="h2-responsive text-white text-center text-uppercase">{{ 'Soumettre une demande de service'|_ }}</h2>
+        </div>
+        <div class="col-10 col-sm-8 col-md-5 pb-5">
+            {% component 'DemandeServices' %}
+        </div>
+    </div>
+</section>
+<section id="pourquoi">
+    <div class="container py-5">
+        {% partial 'reusable/pourquoi' %}
+    </div>
+</section>";s:4:"code";N;s:5:"title";s:32:"Envoyer votre demande de service";s:3:"url";s:9:"/services";s:6:"layout";s:7:"default";s:11:"description";s:190:"Nous offrons nos services consultation et de support à domicile ou de nos ateliers. Nos services sont destinés aussi bien au particuliers qu’aux entreprises à des prix très abordables!";s:10:"meta_title";s:32:"Envoyer votre demande de service";s:16:"meta_description";s:190:"Nous offrons nos services consultation et de support à domicile ou de nos ateliers. Nos services sont destinés aussi bien au particuliers qu’aux entreprises à des prix très abordables!";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:13:"/our-services";}s:16:"localeMeta_title";a:1:{s:2:"en";s:27:"Submit your service request";}s:22:"localeMeta_description";a:1:{s:2:"en";s:164:"We offer our consultation and support services at home or in our workshops. Our services are intended for both individuals and businesses at very affordable prices!";}}s:27:"contactForm DemandeServices";a:0:{}}}

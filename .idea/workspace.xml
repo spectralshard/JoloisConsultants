@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d77fb3e-d6ae-4112-b579-2ab2faf5e3ae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/11/a6/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/11/a6/default.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/2b/42/home.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/2b/42/home.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/5c/4d/header.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/5c/4d/header.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/85/38/navbar.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/85/38/navbar.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/8a/b9/footer.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/8a/b9/footer.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/41/41198d74e89303cd3977cd7f2c59a8ccd08e3e0f5591c8bb2b81ec40940bb321.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/41/41198d74e89303cd3977cd7f2c59a8ccd08e3e0f5591c8bb2b81ec40940bb321.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/8a/8a3bdbfb61210684dba40ce0f4213dcc3390ed646c478f086e5d7d236ad264b4.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/8a/8a3bdbfb61210684dba40ce0f4213dcc3390ed646c478f086e5d7d236ad264b4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/10/01/1001a6b1a8c1c5ff3ebf470bf32df1b65cef5e66" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/10/01/1001a6b1a8c1c5ff3ebf470bf32df1b65cef5e66" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/26/87/268708b3dec453876a36f5168757b1f067658a99" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/26/87/268708b3dec453876a36f5168757b1f067658a99" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/3a/27/3a2717c9ac19024bc3b366e789ef825387cffa00" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/3a/27/3a2717c9ac19024bc3b366e789ef825387cffa00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/51/b7/51b76a18459ca08af078de60ce2581960687ceb1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/51/b7/51b76a18459ca08af078de60ce2581960687ceb1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/83/b4/83b4c9cedb265a8417b1b87a333492643f5eb1c3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/83/b4/83b4c9cedb265a8417b1b87a333492643f5eb1c3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b8/35/b835d66859cf9facbde917eda67e2233ad51a86c" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b8/35/b835d66859cf9facbde917eda67e2233ad51a86c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d9/27/d927a4a2325abbe20f56f410bb2fc9fbd9453c3d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d9/27/d927a4a2325abbe20f56f410bb2fc9fbd9453c3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e3/2c/e32cfb2313993e2d0837568c5b25db7d78e10025" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/e3/2c/e32cfb2313993e2d0837568c5b25db7d78e10025" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$info-color-dark</find>
+      <find>.nav-link</find>
+      <find>dropdown-toggle::after</find>
+      <find>dropdown-item</find>
+      <find>.navbar</find>
+      <find>0B1018</find>
+      <find>text-</find>
+      <find>text-primary</find>
+      <find>.slick-track .slick-slide</find>
+      <find>valign</find>
+      <find>480</find>
+      <find>id=&quot;&quot;</find>
+      <find>assets</find>
+      <find>#fed136;</find>
+      <find>$dropdown-header-padding;</find>
+      <find>$dropdown-header-padding</find>
+      <find>$user-selects</find>
+      <find>gray</find>
+      <find>partner-s</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/themes/jolois</dir>
+      <dir>$PROJECT_DIR$/themes/jolois/assets/vendor/bootstrap/scss</dir>
+      <dir>$PROJECT_DIR$/themes/jolois/assets</dir>
+      <dir>$PROJECT_DIR$/themes/jolois/assets/sass</dir>
+      <dir>$PROJECT_DIR$/plugins</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dP8hwcp35xsoFDFkJx52giLu1o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/jolois/partials" />
+      <recent name="/Volumes/Data/Clients/Groupe JP Robin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/jolois/partials/services" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d77fb3e-d6ae-4112-b579-2ab2faf5e3ae" name="Default" comment="" />
+      <created>1587605328124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587605328124</updated>
+      <workItem from="1587605329205" duration="4465000" />
+      <workItem from="1587684723155" duration="212000" />
+      <workItem from="1588186408214" duration="3466000" />
+      <workItem from="1588444942061" duration="9384000" />
+      <workItem from="1588514638137" duration="10001000" />
+      <workItem from="1588601890347" duration="7620000" />
+      <workItem from="1588700531155" duration="5684000" />
+      <workItem from="1588795760698" duration="7132000" />
+      <workItem from="1588861635557" duration="6629000" />
+      <workItem from="1589221335863" duration="5797000" />
+      <workItem from="1589305710224" duration="2207000" />
+      <workItem from="1589386333271" duration="3525000" />
+      <workItem from="1589475915639" duration="4496000" />
+      <workItem from="1589561744713" duration="5544000" />
+      <workItem from="1589895777986" duration="3321000" />
+      <workItem from="1590075657258" duration="3586000" />
+      <workItem from="1590167429604" duration="1502000" />
+      <workItem from="1590426476508" duration="88000" />
+      <workItem from="1590505939111" duration="1138000" />
+      <workItem from="1590509407558" duration="21000" />
+      <workItem from="1590511476871" duration="58000" />
+      <workItem from="1590679265655" duration="1121000" />
+      <workItem from="1590773101264" duration="1198000" />
+      <workItem from="1591022700439" duration="15000" />
+      <workItem from="1591023967615" duration="680000" />
+      <workItem from="1591213727896" duration="293000" />
+      <workItem from="1592315492323" duration="73000" />
+      <workItem from="1593115021883" duration="1419000" />
+      <workItem from="1593181294903" duration="269000" />
+      <workItem from="1594051804643" duration="395000" />
+      <workItem from="1594220237628" duration="187000" />
+      <workItem from="1594222093652" duration="1765000" />
+      <workItem from="1594237511541" duration="598000" />
+    </task>
+    <task id="LOCAL-00001" summary="add team plugin">
+      <created>1587608837065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587608837065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FIx error in url for cancel (team plugin)">
+      <created>1587646355120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587646355120</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create header and nav">
+      <created>1588514973309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588514973309</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create footer">
+      <created>1588517814411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588517814411</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Configure component Partner in place.">
+      <created>1588524590800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588524590800</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init partial pourquoi with some content.">
+      <created>1588525642792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588525642792</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finish partial pourquoi with svg and respo codes">
+      <created>1588604705166</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588604705166</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Testimonial code in place; extented plugin for translation">
+      <created>1588610471688</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588610471688</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added section title!">
+      <created>1588610619612</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588610619612</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Build service section - home page">
+      <created>1588702101164</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588702101164</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Finish home page">
+      <created>1588787160185</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588787160185</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Build contact page">
+      <created>1588864757134</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588864757134</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Finish Services page">
+      <created>1589227526913</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589227526913</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Init page entreprise">
+      <created>1589307882072</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589307882072</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Finish page entreprise">
+      <created>1589387072776</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589387072776</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Finish page team">
+      <created>1589478451582</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589478451583</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add fallback in team picture">
+      <created>1589479081403</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589479081403</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Nav, header and footer are now respondsive; add code for better menu on mobile">
+      <created>1589565646474</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1589565646474</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Cleanup code in home service (resp)">
+      <created>1589567132871</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1589567132871</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Brunch of cleanup and respo codes applied">
+      <created>1589910481666</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1589910481666</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update vendor - bootstrap to 4.5">
+      <created>1590076341085</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590076341085</updated>
+    </task>
+    <task id="LOCAL-00022" summary="SEO of url, title and description for page done">
+      <created>1590077556482</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1590077556482</updated>
+    </task>
+    <task id="LOCAL-00023" summary="SEO title et images">
+      <created>1590079572077</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1590079572077</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add missing items">
+      <created>1590169079368</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590169079368</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add translations to files">
+      <created>1590507528721</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590507528721</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Spellcheck on home page">
+      <created>1593115511787</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1593115511787</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update files">
+      <created>1594051836710</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1594051836710</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Update files">
+      <created>1594228199731</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1594228199731</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Create header and nav" />
+    <MESSAGE value="Create footer" />
+    <MESSAGE value="Configure component Partner in place." />
+    <MESSAGE value="init partial pourquoi with some content." />
+    <MESSAGE value="Finish partial pourquoi with svg and respo codes" />
+    <MESSAGE value="Testimonial code in place; extented plugin for translation" />
+    <MESSAGE value="Added section title!" />
+    <MESSAGE value="Build service section - home page" />
+    <MESSAGE value="Finish home page" />
+    <MESSAGE value="Build contact page" />
+    <MESSAGE value="Finish Services page" />
+    <MESSAGE value="Init page entreprise" />
+    <MESSAGE value="Finish page entreprise" />
+    <MESSAGE value="Finish page team" />
+    <MESSAGE value="Add fallback in team picture" />
+    <MESSAGE value="Nav, header and footer are now respondsive; add code for better menu on mobile" />
+    <MESSAGE value="Cleanup code in home service (resp)" />
+    <MESSAGE value="Brunch of cleanup and respo codes applied" />
+    <MESSAGE value="Update vendor - bootstrap to 4.5" />
+    <MESSAGE value="SEO of url, title and description for page done" />
+    <MESSAGE value="SEO title et images" />
+    <MESSAGE value="Add missing items" />
+    <MESSAGE value="Add translations to files" />
+    <MESSAGE value="Spellcheck on home page" />
+    <MESSAGE value="Update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1594228198855">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="417" y="100" key="CommitChangelistDialog2/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1594228198855" />
+    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1593115510828" />
+    <state x="633" y="234" key="RollbackChangesDialog" timestamp="1594222165120">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="633" y="234" key="RollbackChangesDialog/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1594222165120" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1594228201505">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1594228201505" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1593115521067" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594222414706">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1594222414706" />
+  </component>
+</project>

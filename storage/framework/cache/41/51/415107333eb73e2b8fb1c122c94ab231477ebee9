@@ -1,0 +1,145 @@
+1595345114a:1:{s:14:"entreprise.htm";a:13:{s:8:"fileName";s:14:"entreprise.htm";s:7:"content";s:3678:"title = "entreprise"
+url = "/entreprise"
+layout = "default"
+description = "Le passionné et ancien président du Club Mac Montréal, Jean-Marie Jolois, offre depuis 15 ans des services de consultation en informatique pour tous le monde et des prix abordables."
+meta_title = "Des experts en produits Apple et Windows"
+meta_description = "Le passionné et ancien président du Club Mac Montréal, Jean-Marie Jolois, offre depuis 15 ans des services de consultation en informatique pour tous le monde et des prix abordables."
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/company"
+localeMeta_title[en] = "Experts in Apple and Windows products"
+localeMeta_description[en] = "The passionate and former president of Club Mac Montreal, Jean-Marie Jolois, has offered computer consulting services for everyone for 15 years and affordable prices."
+
+==
+<section id="jean-marie" class="py-5"></section>
+<section class="pb-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+                <h4 class="h4-responsive text-uppercase text-center">
+                    Jean-Marie
+                </h4>
+                <h2 class="h2-responsive text-primary text-center pb-3">
+                    {{ '23 ans d’expérience et une formation qui continue pour la vie… Vive les technologies!'|_ }}
+                </h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-center">
+                <img src="{{'assets/images/team/team-jeanmarie.jpg'|theme}}" class="img-fluid flex-auto rounded-circle pb-4" alt="{{ 'Photo de Jean-Marie Jolois'|_ }}">
+                <h5 class="h5-responsive text-primary">
+                    Jean-Marie Jolois B.Sc.
+                </h5>
+                <p><strong>
+                    {{ 'Consultant en informatique'|_ }}<br>
+                    {{ 'Expert en solutions Apple'|_ }}<br>
+                    {{ 'Partenaire ADOBE et DROBO'|_ }}<br>
+                    {{ 'Tel. :'|_ }} (514) 360-0381</strong></p>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                {% content 'entreprise/JeanMarie' %}
+            </div>
+        </div>
+    </div>
+</section>
+<section  id="elias"></section>
+<section class="diagonal-box services-section py-5">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center text-white py-5">
+            <div class="col-12 pt-5 mt-5">
+                <h4 class="h4-responsive text-uppercase text-center">
+                    Elias
+                </h4>
+                <h2 class="h2-responsive text-center pb-3">
+                    {{ 'L’HOMME QUI A VU L’HOMME QUI A VU LE MAC ET LE PC'|_ }}
+                </h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-center">
+                <img src="{{'assets/images/team/team-elias.jpg'|theme}}" class="img-fluid flex-auto rounded-circle pb-4" alt="{{ 'Photo de Elias Abi Antoun'|_ }}">
+                <h5 class="h5-responsive">
+                    Elias Abi Antoun
+                </h5>
+                <p><strong>
+                    {{ 'Consultant en informatique'|_ }}<br>
+                    {{ 'Certifié A+ et Cisco'|_ }}<br>
+                    {{ 'Partenaire SEAGATE'|_ }}<br>
+                    {{ 'Tel. :'|_ }} (514) 360-0381</strong></p>
+            </div>
+            <div class="col-xs-12 col-sm-5 pb-5 mb-5">
+                {% content 'entreprise/elias' %}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pb-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1593116440;s:6:"markup";s:2838:"<section id="jean-marie" class="py-5"></section>
+<section class="pb-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+                <h4 class="h4-responsive text-uppercase text-center">
+                    Jean-Marie
+                </h4>
+                <h2 class="h2-responsive text-primary text-center pb-3">
+                    {{ '23 ans d’expérience et une formation qui continue pour la vie… Vive les technologies!'|_ }}
+                </h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-center">
+                <img src="{{'assets/images/team/team-jeanmarie.jpg'|theme}}" class="img-fluid flex-auto rounded-circle pb-4" alt="{{ 'Photo de Jean-Marie Jolois'|_ }}">
+                <h5 class="h5-responsive text-primary">
+                    Jean-Marie Jolois B.Sc.
+                </h5>
+                <p><strong>
+                    {{ 'Consultant en informatique'|_ }}<br>
+                    {{ 'Expert en solutions Apple'|_ }}<br>
+                    {{ 'Partenaire ADOBE et DROBO'|_ }}<br>
+                    {{ 'Tel. :'|_ }} (514) 360-0381</strong></p>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                {% content 'entreprise/JeanMarie' %}
+            </div>
+        </div>
+    </div>
+</section>
+<section  id="elias"></section>
+<section class="diagonal-box services-section py-5">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center text-white py-5">
+            <div class="col-12 pt-5 mt-5">
+                <h4 class="h4-responsive text-uppercase text-center">
+                    Elias
+                </h4>
+                <h2 class="h2-responsive text-center pb-3">
+                    {{ 'L’HOMME QUI A VU L’HOMME QUI A VU LE MAC ET LE PC'|_ }}
+                </h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-center">
+                <img src="{{'assets/images/team/team-elias.jpg'|theme}}" class="img-fluid flex-auto rounded-circle pb-4" alt="{{ 'Photo de Elias Abi Antoun'|_ }}">
+                <h5 class="h5-responsive">
+                    Elias Abi Antoun
+                </h5>
+                <p><strong>
+                    {{ 'Consultant en informatique'|_ }}<br>
+                    {{ 'Certifié A+ et Cisco'|_ }}<br>
+                    {{ 'Partenaire SEAGATE'|_ }}<br>
+                    {{ 'Tel. :'|_ }} (514) 360-0381</strong></p>
+            </div>
+            <div class="col-xs-12 col-sm-5 pb-5 mb-5">
+                {% content 'entreprise/elias' %}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pb-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:5:"title";s:10:"entreprise";s:3:"url";s:11:"/entreprise";s:6:"layout";s:7:"default";s:11:"description";s:184:"Le passionné et ancien président du Club Mac Montréal, Jean-Marie Jolois, offre depuis 15 ans des services de consultation en informatique pour tous le monde et des prix abordables.";s:10:"meta_title";s:40:"Des experts en produits Apple et Windows";s:16:"meta_description";s:184:"Le passionné et ancien président du Club Mac Montréal, Jean-Marie Jolois, offre depuis 15 ans des services de consultation en informatique pour tous le monde et des prix abordables.";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:8:"/company";}s:16:"localeMeta_title";a:1:{s:2:"en";s:37:"Experts in Apple and Windows products";}s:22:"localeMeta_description";a:1:{s:2:"en";s:166:"The passionate and former president of Club Mac Montreal, Jean-Marie Jolois, has offered computer consulting services for everyone for 15 years and affordable prices.";}}}}

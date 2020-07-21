@@ -1,0 +1,165 @@
+1595345114a:1:{s:11:"contact.htm";a:14:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:4053:"title = "Contactez-nous"
+url = "/contact-nous"
+layout = "default"
+description = "Nous vous offrons nos services sur rendez-vous seulement. Nous pouvons nous déplacer à domicile pour vos besoins en informatique, réseautage et câblage."
+meta_title = "Contactez-nous"
+meta_description = "Nous vous offrons nos services sur rendez-vous seulement. Nous pouvons nous déplacer à domicile pour vos besoins en informatique, réseautage et câblage."
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/contact-us"
+localeMeta_title[en] = "Contact us"
+localeMeta_description[en] = "We offer our services by appointment only. We can come to your home for your IT, networking and cabling needs."
+
+[simpleContact ContactForm]
+nameTitle = "Votre nom"
+emailTitle = "Courriel"
+phoneTitle = "Téléphone"
+subjectTitle = "Sujet"
+messageTitle = "Message"
+buttonText = "Soumettre"
+displayPhone = 1
+==
+<div class="hero-home banner py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                {{ 'Nous Contacter'|_ }}
+            </div>
+        </div>
+    </div>
+</div>
+<section id="contact" class="py-5">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xs-12 col-sm-6 col-lg-5 pb-3">
+                {% component 'ContactForm' %}
+            </div>
+            <div class="col-xs-12 col-sm-1 col-lg-1 d-none d-sm-none d-lg-block">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 border-primary border-left d-none d-sm-block" style="height: 100%;">
+                <h3 class="h3-responsive text-primary mt-0">
+                    {{ 'Adresse postale'|_ }}
+                </h3>
+                <p>
+                    <em>* {{ 'sur rendez-vous seulement'|_ }}</em>
+                <br/>
+                    38 place du commerce, bureau 11-134<br />
+                    Ile des Soeurs (Québec)  Canada H3E 1T8
+                </p>
+                <p>
+                <a href="tel:{{ this.theme.default_phone }}">
+                    <i class="fas fa-phone"></i>&nbsp;
+                    {{ this.theme.default_phone }}</a>
+                </p>
+                <p>
+                <a href="mailto:{{ this.theme.default_email }}">
+                    <i class="fas fa-envelope"></i>&nbsp;
+                    {{ this.theme.default_email }}</a>
+                </p>
+                <p class="mb-0">
+                    <strong>{{ 'Besoin d’un technicien :'|_ }}</strong><br>
+                    <a href="mailto:{{ this.theme.support_email }}">
+                        {{ this.theme.support_email }}</a>
+                </p>
+            </div>
+            <div class="col border-primary border-top d-block d-sm-none mt-4 pt-3" style="height: 100%;">
+                <h3 class="h3-responsive text-primary mt-0">
+                    {{ 'Adresse postale'|_ }}
+                </h3>
+                <p>
+                    <em>* {{ 'sur rendez-vous seulement'|_ }}</em>
+                    <br/>
+                    38 place du commerce, bureau 11-134<br />
+                    Ile des Soeurs (Québec)  Canada H3E 1T8
+                </p>
+                <p>
+                    <a href="tel:{{ this.theme.default_phone }}">
+                        <i class="fas fa-phone"></i>&nbsp;
+                        {{ this.theme.default_phone }}</a>
+                </p>
+                <p>
+                    <a href="mailto:{{ this.theme.default_email }}">
+                        <i class="fas fa-envelope"></i>&nbsp;
+                        {{ this.theme.default_email }}</a>
+                </p>
+                <p class="mb-0">
+                    <strong>{{ 'Besoin d’un technicien :'|_ }}</strong><br>
+                    <a href="mailto:{{ this.theme.support_email }}">
+                        {{ this.theme.support_email }}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1590077261;s:6:"markup";s:3154:"<div class="hero-home banner py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                {{ 'Nous Contacter'|_ }}
+            </div>
+        </div>
+    </div>
+</div>
+<section id="contact" class="py-5">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xs-12 col-sm-6 col-lg-5 pb-3">
+                {% component 'ContactForm' %}
+            </div>
+            <div class="col-xs-12 col-sm-1 col-lg-1 d-none d-sm-none d-lg-block">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 border-primary border-left d-none d-sm-block" style="height: 100%;">
+                <h3 class="h3-responsive text-primary mt-0">
+                    {{ 'Adresse postale'|_ }}
+                </h3>
+                <p>
+                    <em>* {{ 'sur rendez-vous seulement'|_ }}</em>
+                <br/>
+                    38 place du commerce, bureau 11-134<br />
+                    Ile des Soeurs (Québec)  Canada H3E 1T8
+                </p>
+                <p>
+                <a href="tel:{{ this.theme.default_phone }}">
+                    <i class="fas fa-phone"></i>&nbsp;
+                    {{ this.theme.default_phone }}</a>
+                </p>
+                <p>
+                <a href="mailto:{{ this.theme.default_email }}">
+                    <i class="fas fa-envelope"></i>&nbsp;
+                    {{ this.theme.default_email }}</a>
+                </p>
+                <p class="mb-0">
+                    <strong>{{ 'Besoin d’un technicien :'|_ }}</strong><br>
+                    <a href="mailto:{{ this.theme.support_email }}">
+                        {{ this.theme.support_email }}</a>
+                </p>
+            </div>
+            <div class="col border-primary border-top d-block d-sm-none mt-4 pt-3" style="height: 100%;">
+                <h3 class="h3-responsive text-primary mt-0">
+                    {{ 'Adresse postale'|_ }}
+                </h3>
+                <p>
+                    <em>* {{ 'sur rendez-vous seulement'|_ }}</em>
+                    <br/>
+                    38 place du commerce, bureau 11-134<br />
+                    Ile des Soeurs (Québec)  Canada H3E 1T8
+                </p>
+                <p>
+                    <a href="tel:{{ this.theme.default_phone }}">
+                        <i class="fas fa-phone"></i>&nbsp;
+                        {{ this.theme.default_phone }}</a>
+                </p>
+                <p>
+                    <a href="mailto:{{ this.theme.default_email }}">
+                        <i class="fas fa-envelope"></i>&nbsp;
+                        {{ this.theme.default_email }}</a>
+                </p>
+                <p class="mb-0">
+                    <strong>{{ 'Besoin d’un technicien :'|_ }}</strong><br>
+                    <a href="mailto:{{ this.theme.support_email }}">
+                        {{ this.theme.support_email }}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:5:"title";s:14:"Contactez-nous";s:3:"url";s:13:"/contact-nous";s:6:"layout";s:7:"default";s:11:"description";s:156:"Nous vous offrons nos services sur rendez-vous seulement. Nous pouvons nous déplacer à domicile pour vos besoins en informatique, réseautage et câblage.";s:10:"meta_title";s:14:"Contactez-nous";s:16:"meta_description";s:156:"Nous vous offrons nos services sur rendez-vous seulement. Nous pouvons nous déplacer à domicile pour vos besoins en informatique, réseautage et câblage.";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:11:"/contact-us";}s:16:"localeMeta_title";a:1:{s:2:"en";s:10:"Contact us";}s:22:"localeMeta_description";a:1:{s:2:"en";s:110:"We offer our services by appointment only. We can come to your home for your IT, networking and cabling needs.";}}s:25:"simpleContact ContactForm";a:7:{s:9:"nameTitle";s:9:"Votre nom";s:10:"emailTitle";s:8:"Courriel";s:10:"phoneTitle";s:11:"Téléphone";s:12:"subjectTitle";s:5:"Sujet";s:12:"messageTitle";s:7:"Message";s:10:"buttonText";s:9:"Soumettre";s:12:"displayPhone";s:1:"1";}}}

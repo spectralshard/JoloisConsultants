@@ -1,4 +1,4 @@
-1590170966a:1:{s:8:"home.htm";a:14:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1579:"title = "Acceuil"
+1595345114a:1:{s:8:"home.htm";a:14:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1579:"title = "Accueil"
 url = "/"
 layout = "default"
 description = "Que vous soyez étudiant, une personne du troisième âge, un travailleur autonome ou encore une PME, nous pouvons vous apporter un soutien informatique."
@@ -35,7 +35,7 @@ textColor = "#3db166"
     <div class="container py-5">
         {% partial 'reusable/pourquoi' %}
     </div>
-</section>";s:5:"mtime";i:1590077228;s:6:"markup";s:726:"<div class="banner hero-home py-5">
+</section>";s:5:"mtime";i:1590170936;s:6:"markup";s:726:"<div class="banner hero-home py-5">
     <div class="container py-5">
         <div class="banner-text">
             <div class="banner-heading text-uppercase">
@@ -55,4 +55,4 @@ textColor = "#3db166"
     <div class="container py-5">
         {% partial 'reusable/pourquoi' %}
     </div>
-</section>";s:4:"code";N;s:5:"title";s:7:"Acceuil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:153:"Que vous soyez étudiant, une personne du troisième âge, un travailleur autonome ou encore une PME, nous pouvons vous apporter un soutien informatique.";s:10:"meta_title";s:68:"Support informatique MAC et Windows pour particuliers et entreprises";s:16:"meta_description";s:153:"Que vous soyez étudiant, une personne du troisième âge, un travailleur autonome ou encore une PME, nous pouvons vous apporter un soutien informatique.";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:1:"/";}s:16:"localeMeta_title";a:1:{s:2:"en";s:57:"Mac and Windows IT support for individuals and businesses";}s:22:"localeMeta_description";a:1:{s:2:"en";s:114:"Whether you are a student, a senior citizen, a self-employed worker or an SME, we can provide you with IT support.";}}s:29:"testimonials testimonialsBloc";a:2:{s:15:"backgroundColor";s:7:"#1b2945";s:9:"textColor";s:7:"#3db166";}}}
+</section>";s:4:"code";N;s:5:"title";s:7:"Accueil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:153:"Que vous soyez étudiant, une personne du troisième âge, un travailleur autonome ou encore une PME, nous pouvons vous apporter un soutien informatique.";s:10:"meta_title";s:68:"Support informatique MAC et Windows pour particuliers et entreprises";s:16:"meta_description";s:153:"Que vous soyez étudiant, une personne du troisième âge, un travailleur autonome ou encore une PME, nous pouvons vous apporter un soutien informatique.";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:1:"/";}s:16:"localeMeta_title";a:1:{s:2:"en";s:57:"Mac and Windows IT support for individuals and businesses";}s:22:"localeMeta_description";a:1:{s:2:"en";s:114:"Whether you are a student, a senior citizen, a self-employed worker or an SME, we can provide you with IT support.";}}s:29:"testimonials testimonialsBloc";a:2:{s:15:"backgroundColor";s:7:"#1b2945";s:9:"textColor";s:7:"#3db166";}}}

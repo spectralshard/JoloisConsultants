@@ -1,0 +1,151 @@
+1595345114a:1:{s:17:"home/services.htm";a:5:{s:8:"fileName";s:17:"home/services.htm";s:7:"content";s:3787:"<div class="row">
+    <div class="col-12">
+        <h2 class="h2-responsive text-uppercase text-primary text-center">
+            {{ 'Nos services informatiques'|_ }}
+        </h2>
+    </div>
+</div>
+<div class="row my-3 my-sm-4 my-lg-3">
+    <div class="col-12">
+        <a href="{{ 'services-et-tarifs'|page }}" title="{{ 'Étudiants, troisième âge et résidentiel'|_ }}">
+            <div class="card border-rad-5">
+                <div class="row no-gutters">
+                    <div class="col-sm-6">
+                        <img src="{{'assets/images/service-etudiants-1200x.jpg'|theme}}" class="card-img-left img-fluid flex-auto border-rad-5" alt="{{ 'Étudiants, troisième âge et résidentiel'|_ }}">
+                    </div>
+                    <div class="col-sm-6 d-flex align-items-center">
+                        <div class="card-body ">
+                            <h4 class="h4-responsive text-secondary mx-1 mx-sm-3 mx-lg-5 text-uppercase">
+                                {{ 'Pour'|_ }}
+                            </h4>
+                            <h3 class="h3-responsive text-primary mt-0 mx-1 mx-sm-3 mx-lg-5">
+                                {{ 'Étudiants, troisième âge et résidentiel'|_ }}
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="row my-3 my-sm-4 my-lg-3">
+    <div class="col-12">
+        <a href="{{ 'services-et-tarifs'|page }}"  title="{{ 'Travailleurs autonomes et bureau à domicile'|_ }}">
+            <div class="card border-rad-5">
+                <div class="d-flex row no-gutters">
+                    <div class="order-2 order-sm-1 d-flex col-sm-6 align-items-center">
+                        <div class="card-body">
+                            <h4 class="h4-responsive text-secondary mx-1 mx-sm-3 mx-lg-5 text-uppercase">
+                                {{ 'Pour'|_ }}
+                            </h4>
+                            <h3 class="h3-responsive text-primary mt-0 mx-1 mx-sm-3 mx-lg-5">
+                                {{ 'Travailleurs autonomes et bureau à domicile'|_ }}
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="order-1 order-sm-2 col-sm-6 col-xs-pull-3">
+                        <img src="{{'assets/images/service-autonomes-1200x.jpg'|theme}}" class="card-img-left img-fluid flex-auto border-rad-5" alt="{{ 'Travailleurs autonomes et bureau à domicile'|_ }}">
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="row my-3 my-sm-4 my-lg-3 pb-5">
+    <div class="col-12">
+        <a href="{{ 'services-et-tarifs'|page }}" title="{{ 'PME, industries et commerces'|_ }}">
+            <div class="card border-rad-5">
+                <div class="row no-gutters">
+                    <div class="col-sm-6">
+                        <img src="{{'assets/images/service-pme-1200x.jpg'|theme}}" class="card-img-left img-fluid flex-auto border-rad-5" alt="{{ 'PME, industries et commerces'|_ }}">
+                    </div>
+                    <div class="col-sm-6 d-flex align-items-center">
+                        <div class="card-body ">
+                            <h4 class="h4-responsive text-secondary mx-1 mx-sm-3 mx-lg-5 text-uppercase">
+                                {{ 'Pour'|_ }}
+                            </h4>
+                            <h3 class="h3-responsive text-primary mt-0 mx-1 mx-sm-3 mx-lg-5">
+                                {{ 'PME, industries et commerces'|_ }}
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>";s:5:"mtime";i:1593115131;s:6:"markup";s:3787:"<div class="row">
+    <div class="col-12">
+        <h2 class="h2-responsive text-uppercase text-primary text-center">
+            {{ 'Nos services informatiques'|_ }}
+        </h2>
+    </div>
+</div>
+<div class="row my-3 my-sm-4 my-lg-3">
+    <div class="col-12">
+        <a href="{{ 'services-et-tarifs'|page }}" title="{{ 'Étudiants, troisième âge et résidentiel'|_ }}">
+            <div class="card border-rad-5">
+                <div class="row no-gutters">
+                    <div class="col-sm-6">
+                        <img src="{{'assets/images/service-etudiants-1200x.jpg'|theme}}" class="card-img-left img-fluid flex-auto border-rad-5" alt="{{ 'Étudiants, troisième âge et résidentiel'|_ }}">
+                    </div>
+                    <div class="col-sm-6 d-flex align-items-center">
+                        <div class="card-body ">
+                            <h4 class="h4-responsive text-secondary mx-1 mx-sm-3 mx-lg-5 text-uppercase">
+                                {{ 'Pour'|_ }}
+                            </h4>
+                            <h3 class="h3-responsive text-primary mt-0 mx-1 mx-sm-3 mx-lg-5">
+                                {{ 'Étudiants, troisième âge et résidentiel'|_ }}
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="row my-3 my-sm-4 my-lg-3">
+    <div class="col-12">
+        <a href="{{ 'services-et-tarifs'|page }}"  title="{{ 'Travailleurs autonomes et bureau à domicile'|_ }}">
+            <div class="card border-rad-5">
+                <div class="d-flex row no-gutters">
+                    <div class="order-2 order-sm-1 d-flex col-sm-6 align-items-center">
+                        <div class="card-body">
+                            <h4 class="h4-responsive text-secondary mx-1 mx-sm-3 mx-lg-5 text-uppercase">
+                                {{ 'Pour'|_ }}
+                            </h4>
+                            <h3 class="h3-responsive text-primary mt-0 mx-1 mx-sm-3 mx-lg-5">
+                                {{ 'Travailleurs autonomes et bureau à domicile'|_ }}
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="order-1 order-sm-2 col-sm-6 col-xs-pull-3">
+                        <img src="{{'assets/images/service-autonomes-1200x.jpg'|theme}}" class="card-img-left img-fluid flex-auto border-rad-5" alt="{{ 'Travailleurs autonomes et bureau à domicile'|_ }}">
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="row my-3 my-sm-4 my-lg-3 pb-5">
+    <div class="col-12">
+        <a href="{{ 'services-et-tarifs'|page }}" title="{{ 'PME, industries et commerces'|_ }}">
+            <div class="card border-rad-5">
+                <div class="row no-gutters">
+                    <div class="col-sm-6">
+                        <img src="{{'assets/images/service-pme-1200x.jpg'|theme}}" class="card-img-left img-fluid flex-auto border-rad-5" alt="{{ 'PME, industries et commerces'|_ }}">
+                    </div>
+                    <div class="col-sm-6 d-flex align-items-center">
+                        <div class="card-body ">
+                            <h4 class="h4-responsive text-secondary mx-1 mx-sm-3 mx-lg-5 text-uppercase">
+                                {{ 'Pour'|_ }}
+                            </h4>
+                            <h3 class="h3-responsive text-primary mt-0 mx-1 mx-sm-3 mx-lg-5">
+                                {{ 'PME, industries et commerces'|_ }}
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>";s:4:"code";N;}}

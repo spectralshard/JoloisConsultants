@@ -1,0 +1,38 @@
+1595345114a:1:{s:10:"equipe.htm";a:14:{s:8:"fileName";s:10:"equipe.htm";s:7:"content";s:1113:"title = "L'équipe"
+url = "/lequipe"
+layout = "default"
+description = "Que ce soit pour les produits PC, MAC ou encore pour du câblage et du réseautage, c’est une équipe d’experts du domaine des technologies et du web qui vous accompagne."
+meta_title = "Une équipe de spécialistes"
+meta_description = "Que ce soit pour les produits PC, MAC ou encore pour du câblage et du réseautage, c’est une équipe d’experts du domaine des technologies et du web qui vous accompagne."
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/team"
+localeMeta_title[en] = "A team of specialists"
+localeMeta_description[en] = "Whether for PC or MAC products or for cabling and networking, a team of technology and web experts is with you."
+
+[Members team]
+==
+<section id="top" class="hero-home banner-team py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                {{ 'Notre équipe'|_ }}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5 my-5">
+        {% component 'team' %}
+</section>";s:5:"mtime";i:1590077399;s:6:"markup";s:353:"<section id="top" class="hero-home banner-team py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+                {{ 'Notre équipe'|_ }}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5 my-5">
+        {% component 'team' %}
+</section>";s:4:"code";N;s:5:"title";s:9:"L'équipe";s:3:"url";s:8:"/lequipe";s:6:"layout";s:7:"default";s:11:"description";s:174:"Que ce soit pour les produits PC, MAC ou encore pour du câblage et du réseautage, c’est une équipe d’experts du domaine des technologies et du web qui vous accompagne.";s:10:"meta_title";s:28:"Une équipe de spécialistes";s:16:"meta_description";s:174:"Que ce soit pour les produits PC, MAC ou encore pour du câblage et du réseautage, c’est une équipe d’experts du domaine des technologies et du web qui vous accompagne.";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:5:"/team";}s:16:"localeMeta_title";a:1:{s:2:"en";s:21:"A team of specialists";}s:22:"localeMeta_description";a:1:{s:2:"en";s:111:"Whether for PC or MAC products or for cabling and networking, a team of technology and web experts is with you.";}}s:12:"Members team";a:0:{}}}

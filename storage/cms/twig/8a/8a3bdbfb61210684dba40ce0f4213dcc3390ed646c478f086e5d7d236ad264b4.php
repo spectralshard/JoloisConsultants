@@ -61,7 +61,7 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
         echo "\">
 \t\t\t\t\t\t";
         // line 15
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Acceuil"]);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Accueil"]);
         echo "
 \t\t\t\t\t</a>
 \t\t\t\t</li>
@@ -84,10 +84,6 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
         echo "#elias\">Elias</a>
 \t\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
         // line 26
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
-        echo "#alexis\">Alexis</a>
-\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
-        // line 27
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("equipe");
         echo "\">";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["L'équipe"]);
@@ -96,7 +92,7 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t\t</li>
 \t\t\t\t<li class=\"nav-item mx-auto\">
 \t\t\t\t\t<a class=\"nav-link\" href=\"";
-        // line 31
+        // line 30
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("services-et-tarifs");
         echo "\">";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Services"]);
@@ -104,18 +100,18 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t\t</li>
 \t\t\t\t<li class=\"nav-item mx-auto\">
 \t\t\t\t\t<a class=\"nav-link\" href=\"";
-        // line 34
+        // line 33
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("contact");
         echo "\">
 \t\t\t\t\t\t";
-        // line 35
+        // line 34
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Contact"]);
         echo "</a>
 \t\t\t\t</li>
 \t\t\t\t<li class=\"nav-item pl-3 d-none d-sm-none d-md-none d-lg-block\">
 \t\t\t\t\t<a class=\"btn btn-primary\" href=\"mailto:";
-        // line 38
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 38), "support_email", [], "any", false, false, false, 38), "html", null, true);
+        // line 37
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 37), "support_email", [], "any", false, false, false, 37), "html", null, true);
         echo "\" target=\"_blank\">";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Demande de support"]);
         echo "</a>
@@ -138,7 +134,7 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 
     public function getDebugInfo()
     {
-        return array (  118 => 38,  112 => 35,  108 => 34,  100 => 31,  91 => 27,  87 => 26,  83 => 25,  79 => 24,  73 => 21,  64 => 15,  60 => 14,  45 => 4,  41 => 3,  37 => 1,);
+        return array (  114 => 37,  108 => 34,  104 => 33,  96 => 30,  87 => 26,  83 => 25,  79 => 24,  73 => 21,  64 => 15,  60 => 14,  45 => 4,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -157,7 +153,7 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t<ul class=\"navbar-nav ml-auto pb-0\">
 \t\t\t\t<li class=\"nav-item mx-auto\">
 \t\t\t\t\t<a class=\"nav-link\" href=\"{{ 'home'|page }}\">
-\t\t\t\t\t\t{{'Acceuil'|_}}
+\t\t\t\t\t\t{{'Accueil'|_}}
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t\t<li class=\"nav-item dropdown mx-auto\">
@@ -168,7 +164,6 @@ class __TwigTemplate_008657ff231231bf6572dddb42aa5516d4fd77c3a599940738af051e8c0
 \t\t\t\t\t<div class=\"dropdown-menu animate slideIn mx-auto\" aria-labelledby=\"navbarDropdown\">
 \t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#jean-marie\">Jean-Marie</a>
 \t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#elias\">Elias</a>
-\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#alexis\">Alexis</a>
 \t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'equipe'|page }}\">{{'L\\'équipe'|_}}</a>
 \t\t\t\t\t</div>
 \t\t\t\t</li>
