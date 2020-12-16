@@ -1,4 +1,4 @@
-1595345115a:1:{s:21:"reusable/pourquoi.htm";a:5:{s:8:"fileName";s:21:"reusable/pourquoi.htm";s:7:"content";s:2975:"<div class="row pb-5">
+1607749020a:1:{s:21:"reusable/pourquoi.htm";a:5:{s:8:"fileName";s:21:"reusable/pourquoi.htm";s:7:"content";s:2975:"<div class="row pb-5">
     <div class="col-12">
         <h2 class="h2-responsive text-uppercase text-primary text-center">
             {{ 'Pourquoi nous choisir?'|_ }}

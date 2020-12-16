@@ -1,4 +1,4 @@
-1595345127a:1:{s:18:"services/rates.htm";a:5:{s:8:"fileName";s:18:"services/rates.htm";s:7:"content";s:5025:"<div class="container pt-5">
+1607749144a:1:{s:18:"services/rates.htm";a:5:{s:8:"fileName";s:18:"services/rates.htm";s:7:"content";s:5091:"<div class="container pt-5">
     <div class="row">
         <div class="col-12">
             <h2 class="h2-responsive text-uppercase text-primary text-center">
@@ -83,7 +83,7 @@
                         <em>*** {{ 'Rabais pour clients avec banques d\'heures'|_ }}</em>
                     </p>
                     <p>
-                        <em>* {{ 'Les frais de déplacement s\"appliquent à la grande région de Montréal et sa banlieue. Les déplacements plus longs seront facturés à l\'heure.'|_ }}</em>
+                        <em>* {{ 'Les frais de déplacement s\'appliquent à la région de Montréal.'|_ }}<br> {{ 'Les déplacements de plus d\'une heure, aller simple, compté à partir du bureau de l\'île des Soeurs, sont facturés à l\'heure.'|_ }}</em>
                     </p>
                     <p>
                         <em>** {{ 'Les frais de dépannage par téléphone et par courriel seront facturés par tranche de 30 minutes.'|_ }}</em>
@@ -96,7 +96,7 @@
             </div>
         </div>
     </div>
-</div>";s:5:"mtime";i:1590506123;s:6:"markup";s:5025:"<div class="container pt-5">
+</div>";s:5:"mtime";i:1607748541;s:6:"markup";s:5091:"<div class="container pt-5">
     <div class="row">
         <div class="col-12">
             <h2 class="h2-responsive text-uppercase text-primary text-center">
@@ -181,7 +181,7 @@
                         <em>*** {{ 'Rabais pour clients avec banques d\'heures'|_ }}</em>
                     </p>
                     <p>
-                        <em>* {{ 'Les frais de déplacement s\"appliquent à la grande région de Montréal et sa banlieue. Les déplacements plus longs seront facturés à l\'heure.'|_ }}</em>
+                        <em>* {{ 'Les frais de déplacement s\'appliquent à la région de Montréal.'|_ }}<br> {{ 'Les déplacements de plus d\'une heure, aller simple, compté à partir du bureau de l\'île des Soeurs, sont facturés à l\'heure.'|_ }}</em>
                     </p>
                     <p>
                         <em>** {{ 'Les frais de dépannage par téléphone et par courriel seront facturés par tranche de 30 minutes.'|_ }}</em>

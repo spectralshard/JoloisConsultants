@@ -199,7 +199,9 @@ class __TwigTemplate_17e8a1baa6726e985f92af9970185d16af24fa9377b7715ac8cb0b30b9f
                     <p>
                         <em>* ";
         // line 86
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Les frais de déplacement s\"appliquent à la grande région de Montréal et sa banlieue. Les déplacements plus longs seront facturés à l'heure."]);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Les frais de déplacement s'appliquent à la région de Montréal."]);
+        echo "<br> ";
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Les déplacements de plus d'une heure, aller simple, compté à partir du bureau de l'île des Soeurs, sont facturés à l'heure."]);
         echo "</em>
                     </p>
                     <p>
@@ -237,7 +239,7 @@ class __TwigTemplate_17e8a1baa6726e985f92af9970185d16af24fa9377b7715ac8cb0b30b9f
 
     public function getDebugInfo()
     {
-        return array (  218 => 93,  214 => 92,  208 => 89,  202 => 86,  196 => 83,  185 => 74,  176 => 71,  167 => 68,  165 => 67,  157 => 62,  151 => 59,  147 => 58,  138 => 51,  129 => 48,  120 => 45,  118 => 44,  110 => 39,  104 => 36,  100 => 35,  91 => 28,  82 => 25,  73 => 22,  71 => 21,  63 => 16,  57 => 13,  53 => 12,  43 => 5,  37 => 1,);
+        return array (  220 => 93,  216 => 92,  210 => 89,  202 => 86,  196 => 83,  185 => 74,  176 => 71,  167 => 68,  165 => 67,  157 => 62,  151 => 59,  147 => 58,  138 => 51,  129 => 48,  120 => 45,  118 => 44,  110 => 39,  104 => 36,  100 => 35,  91 => 28,  82 => 25,  73 => 22,  71 => 21,  63 => 16,  57 => 13,  53 => 12,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -327,7 +329,7 @@ class __TwigTemplate_17e8a1baa6726e985f92af9970185d16af24fa9377b7715ac8cb0b30b9f
                         <em>*** {{ 'Rabais pour clients avec banques d\\'heures'|_ }}</em>
                     </p>
                     <p>
-                        <em>* {{ 'Les frais de déplacement s\\\"appliquent à la grande région de Montréal et sa banlieue. Les déplacements plus longs seront facturés à l\\'heure.'|_ }}</em>
+                        <em>* {{ 'Les frais de déplacement s\\'appliquent à la région de Montréal.'|_ }}<br> {{ 'Les déplacements de plus d\\'une heure, aller simple, compté à partir du bureau de l\\'île des Soeurs, sont facturés à l\\'heure.'|_ }}</em>
                     </p>
                     <p>
                         <em>** {{ 'Les frais de dépannage par téléphone et par courriel seront facturés par tranche de 30 minutes.'|_ }}</em>

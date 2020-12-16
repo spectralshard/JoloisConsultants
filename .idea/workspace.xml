@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d77fb3e-d6ae-4112-b579-2ab2faf5e3ae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/11/a6/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/11/a6/default.htm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/2b/42/home.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/2b/42/home.htm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/5c/4d/header.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/5c/4d/header.htm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/85/38/navbar.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/85/38/navbar.htm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/8a/b9/footer.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/8a/b9/footer.htm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/41/41198d74e89303cd3977cd7f2c59a8ccd08e3e0f5591c8bb2b81ec40940bb321.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/41/41198d74e89303cd3977cd7f2c59a8ccd08e3e0f5591c8bb2b81ec40940bb321.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/8a/8a3bdbfb61210684dba40ce0f4213dcc3390ed646c478f086e5d7d236ad264b4.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/8a/8a3bdbfb61210684dba40ce0f4213dcc3390ed646c478f086e5d7d236ad264b4.php" afterDir="false" />
+    <list default="true" id="9d77fb3e-d6ae-4112-b579-2ab2faf5e3ae" name="Default" comment="Update CMS and plugins">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/13/7f/rates.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/13/7f/rates.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/c0/c08ff8efb5568c654f4a792e7823adf4fcb17e1765e0c6ede75280fb1239ab61.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/c0/c08ff8efb5568c654f4a792e7823adf4fcb17e1765e0c6ede75280fb1239ab61.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/0a/98/0a9822de12be4cd4fd24a71e1da24de9df28956d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/98/0a9822de12be4cd4fd24a71e1da24de9df28956d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/0f/7c/0f7c62de27f8b7b43b686da49318b2cb16569814" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/0f/7c/0f7c62de27f8b7b43b686da49318b2cb16569814" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/10/01/1001a6b1a8c1c5ff3ebf470bf32df1b65cef5e66" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/10/01/1001a6b1a8c1c5ff3ebf470bf32df1b65cef5e66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/26/87/268708b3dec453876a36f5168757b1f067658a99" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/26/87/268708b3dec453876a36f5168757b1f067658a99" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/3a/27/3a2717c9ac19024bc3b366e789ef825387cffa00" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/3a/27/3a2717c9ac19024bc3b366e789ef825387cffa00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/3f/22/3f22cbcc5789a5c68f193990ff7121df49b7a1bd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/3f/22/3f22cbcc5789a5c68f193990ff7121df49b7a1bd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/41/51/415107333eb73e2b8fb1c122c94ab231477ebee9" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/41/51/415107333eb73e2b8fb1c122c94ab231477ebee9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/43/3e/433e1be81bb466ca56e961c942e2b0842abfdf28" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/43/3e/433e1be81bb466ca56e961c942e2b0842abfdf28" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/51/b7/51b76a18459ca08af078de60ce2581960687ceb1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/51/b7/51b76a18459ca08af078de60ce2581960687ceb1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/55/cf/55cf00640f23cec8d41bf4e6a9983e07bea703e1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/55/cf/55cf00640f23cec8d41bf4e6a9983e07bea703e1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/61/59/615984d75cedf8049e857c7e666e91cab18a0df3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/61/59/615984d75cedf8049e857c7e666e91cab18a0df3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/83/b4/83b4c9cedb265a8417b1b87a333492643f5eb1c3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/83/b4/83b4c9cedb265a8417b1b87a333492643f5eb1c3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/8d/40/8d40258d3e85d744cd304f31b54fb04cead1fec7" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/8d/40/8d40258d3e85d744cd304f31b54fb04cead1fec7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/91/11/911128f9e58156d02d2fddcfbb1888cb4927f97d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/91/11/911128f9e58156d02d2fddcfbb1888cb4927f97d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/9b/21/9b21b80573b82f5ec24708b33074d58f58782aaf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/9b/21/9b21b80573b82f5ec24708b33074d58f58782aaf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b8/01/b80145f4451901aa96fa79c9bca0579ae2838a62" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b8/01/b80145f4451901aa96fa79c9bca0579ae2838a62" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/b8/35/b835d66859cf9facbde917eda67e2233ad51a86c" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b8/35/b835d66859cf9facbde917eda67e2233ad51a86c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d4/d6/d4d6d644ca0d50a9346f40f2b65cf1be5699beb9" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d4/d6/d4d6d644ca0d50a9346f40f2b65cf1be5699beb9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/d9/27/d927a4a2325abbe20f56f410bb2fc9fbd9453c3d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d9/27/d927a4a2325abbe20f56f410bb2fc9fbd9453c3d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/e3/2c/e32cfb2313993e2d0837568c5b25db7d78e10025" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/e3/2c/e32cfb2313993e2d0837568c5b25db7d78e10025" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e4/5e/e45e6a28ab61229e2580a05cbb62a6ef19b885d6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/e4/5e/e45e6a28ab61229e2580a05cbb62a6ef19b885d6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f9/09/f9094c0097f194dbab600d5a9c9af72e201de8b6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/f9/09/f9094c0097f194dbab600d5a9c9af72e201de8b6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/fb/61/fb6180402d2e34fc9a1205ac63359ccf8ebe196d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/fb/61/fb6180402d2e34fc9a1205ac63359ccf8ebe196d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/jolois/partials/services/rates.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/jolois/partials/services/rates.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,36 +41,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>$info-color-dark</find>
-      <find>.nav-link</find>
-      <find>dropdown-toggle::after</find>
-      <find>dropdown-item</find>
-      <find>.navbar</find>
-      <find>0B1018</find>
-      <find>text-</find>
-      <find>text-primary</find>
-      <find>.slick-track .slick-slide</find>
-      <find>valign</find>
-      <find>480</find>
-      <find>id=&quot;&quot;</find>
-      <find>assets</find>
-      <find>#fed136;</find>
-      <find>$dropdown-header-padding;</find>
-      <find>$dropdown-header-padding</find>
-      <find>$user-selects</find>
-      <find>gray</find>
-      <find>partner-s</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/themes/jolois</dir>
-      <dir>$PROJECT_DIR$/themes/jolois/assets/vendor/bootstrap/scss</dir>
-      <dir>$PROJECT_DIR$/themes/jolois/assets</dir>
-      <dir>$PROJECT_DIR$/themes/jolois/assets/sass</dir>
-      <dir>$PROJECT_DIR$/plugins</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,6 +54,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -86,7 +65,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -97,6 +77,7 @@
       <recent name="$PROJECT_DIR$/themes/jolois/partials/services" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -140,6 +121,17 @@
       <workItem from="1594220237628" duration="187000" />
       <workItem from="1594222093652" duration="1765000" />
       <workItem from="1594237511541" duration="598000" />
+      <workItem from="1595344572363" duration="74000" />
+      <workItem from="1597416221723" duration="614000" />
+      <workItem from="1597675395911" duration="249000" />
+      <workItem from="1597859129039" duration="166000" />
+      <workItem from="1597937777152" duration="50000" />
+      <workItem from="1597950603254" duration="690000" />
+      <workItem from="1597957024277" duration="68000" />
+      <workItem from="1597957189028" duration="121000" />
+      <workItem from="1607748307783" duration="339000" />
+      <workItem from="1608092241048" duration="242000" />
+      <workItem from="1608092589309" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="add team plugin">
       <created>1587608837065</created>
@@ -337,16 +329,22 @@
       <option name="project" value="LOCAL" />
       <updated>1594228199731</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Update CMS and plugins">
+      <created>1595344629390</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1595344629390</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Create header and nav" />
     <MESSAGE value="Create footer" />
     <MESSAGE value="Configure component Partner in place." />
     <MESSAGE value="init partial pourquoi with some content." />
@@ -371,26 +369,21 @@
     <MESSAGE value="Add translations to files" />
     <MESSAGE value="Spellcheck on home page" />
     <MESSAGE value="Update files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update files" />
+    <MESSAGE value="Update CMS and plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update CMS and plugins" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1594228198855">
+    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608092247281">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="417" y="100" key="CommitChangelistDialog2/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1594228198855" />
-    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1593115510828" />
-    <state x="633" y="234" key="RollbackChangesDialog" timestamp="1594222165120">
+    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1608092247281" />
+    <state x="492" y="310" key="EditFileWatcherDialog" timestamp="1608092643117">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="633" y="234" key="RollbackChangesDialog/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1594222165120" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1594228201505">
+    <state x="492" y="310" key="EditFileWatcherDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1608092643117" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1608092678469">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1594228201505" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1593115521067" />
-    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594222414706">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1594222414706" />
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1608092678469" />
   </component>
 </project>
